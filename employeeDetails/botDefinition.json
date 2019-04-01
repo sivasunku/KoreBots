@@ -1,0 +1,902 @@
+{
+    "_id": "st-0fbdb265-2bc0-52e3-9be6-45a5a45975a4",
+    "refId": "5ce77ff0-55f8-5a41-bc1f-371d80a6bb75",
+    "notifyUserViaEmail": true,
+    "purpose": "customer",
+    "hasUserEndpoint": false,
+    "offKoraConfirmation": false,
+    "skipMakeEditLinks": false,
+    "type": "default",
+    "variables": [],
+    "showInMp": false,
+    "defaultLanguage": "en",
+    "supportedLanguages": [
+        "en"
+    ],
+    "languagePreferences": {
+        "type": "lifeTime"
+    },
+    "strict_pii": false,
+    "color": "#009dab",
+    "sBannerColor": "#009dab",
+    "bBannerColor": "#009dab",
+    "categoryIds": [
+        "451902a073c071463e2fe7f6"
+    ],
+    "class": [],
+    "featured": false,
+    "sendVcf": false,
+    "isNLEnabled": true,
+    "interruptsEnabled": true,
+    "languagesToBeIgnored": [],
+    "localeData": {
+        "en": {
+            "name": "Employee Details",
+            "errorCodes": {
+                "pollError": []
+            },
+            "description": "Employee Details",
+            "nlMeta": {
+                "patterns": 0,
+                "synonyms": 99,
+                "mlUtterances": 0
+            },
+            "keywords": [],
+            "synonyms": {
+                "create": [
+                    "new",
+                    "add",
+                    "assemble",
+                    "build",
+                    "compose",
+                    "construct",
+                    "contrive",
+                    "create",
+                    "design",
+                    "generate",
+                    "instantiate",
+                    "invent",
+                    "make",
+                    "manufacture",
+                    "produce",
+                    "synthesize",
+                    "synthetise",
+                    "synthetize",
+                    "write"
+                ],
+                "alter": [
+                    "adjust",
+                    "alter",
+                    "amend",
+                    "renovate",
+                    "revise",
+                    "modify",
+                    "revamp",
+                    "reshape",
+                    "reconstruct",
+                    "recast",
+                    "change",
+                    "update"
+                ],
+                "add": [
+                    "insert",
+                    "append",
+                    "attach",
+                    "add"
+                ],
+                "delete": [
+                    "abolish",
+                    "annihilate",
+                    "delete",
+                    "demolish",
+                    "destroy",
+                    "efface",
+                    "erase",
+                    "eliminate",
+                    "obliterate"
+                ],
+                "get": [
+                    "find",
+                    "garner",
+                    "gather",
+                    "get",
+                    "grab",
+                    "obtain",
+                    "retrieve",
+                    "show",
+                    "display",
+                    "give"
+                ],
+                "list": [
+                    "enumerate",
+                    "list",
+                    "name",
+                    "tell"
+                ],
+                "comment": [
+                    "comment",
+                    "annotate",
+                    "describe"
+                ],
+                "pick": [
+                    "choose",
+                    "decide",
+                    "handpick",
+                    "pick",
+                    "prefer",
+                    "recommend",
+                    "select",
+                    "suggest"
+                ],
+                "request": [
+                    "ask",
+                    "request"
+                ],
+                "post": [
+                    "post",
+                    "put",
+                    "place",
+                    "submit"
+                ],
+                "top": [
+                    "top",
+                    "valuable",
+                    "best",
+                    "foremost",
+                    "peak"
+                ],
+                "recent": [
+                    "recent",
+                    "new"
+                ],
+                "customer": [
+                    "customer",
+                    "client",
+                    "user"
+                ],
+                "info": [
+                    "detail",
+                    "specific",
+                    "information",
+                    "info"
+                ],
+                "rank": [
+                    "rating",
+                    "rate",
+                    "rank"
+                ],
+                "item": [
+                    "stock",
+                    "inventory",
+                    "item",
+                    "product"
+                ]
+            }
+        }
+    },
+    "interruptOptions": {
+        "interruptsEnabled": true,
+        "numTasksToHold": "1",
+        "type": {
+            "option": "developer",
+            "message": ""
+        },
+        "holdUxOptions": {
+            "option": "holdCurrTask",
+            "message": ""
+        },
+        "resumeUxOptions": {
+            "option": "notifyUser",
+            "message": "Resuming interrupted task"
+        }
+    },
+    "confidenceConfigs": [
+        {
+            "mode": "ml",
+            "minThreshold": 0.3,
+            "maxThreshold": 80,
+            "isActive": true,
+            "exactMatchThreshold": 95
+        },
+        {
+            "mode": "faq",
+            "minThreshold": 60,
+            "maxThreshold": 80,
+            "isActive": true,
+            "taskMatchTolerance": 5,
+            "exactMatchThreshold": 95,
+            "suggestionsCount": 3,
+            "pathCoverage": 50
+        },
+        {
+            "mode": "cs",
+            "minThreshold": 60,
+            "maxThreshold": 80,
+            "isActive": true,
+            "taskMatchTolerance": 2,
+            "wordCoverage": 60
+        }
+    ],
+    "detectMultiIntent": false,
+    "enableNegativePatterns": false,
+    "isCsMatchEnabled": false,
+    "botEvents": {
+        "TASK_FAILURE_EVENT": {
+            "enabled": true,
+            "action": "showMsg",
+            "task": null,
+            "script": ".",
+            "msg": [
+                {
+                    "createdBy": "u-6c8f2bde-d44c-5301-87ff-5d536f6f3a9b",
+                    "createdOn": "Mon Apr 01 2019 07:25:18 GMT+0000 (UTC)",
+                    "streamId": "st-0fbdb265-2bc0-52e3-9be6-45a5a45975a4",
+                    "channel": "default",
+                    "lModBy": "Mon Apr 01 2019 07:25:18 GMT+0000 (UTC)",
+                    "localeData": {
+                        "en": {
+                            "type": "basic",
+                            "text": "I%20am%20sorry%2C%20something%20went%20wrong%20and%20I%20had%20to%20discard%20your%20task.%20Please%20retry."
+                        }
+                    },
+                    "lMod": "Mon Apr 01 2019 07:25:18 GMT+0000 (UTC)",
+                    "__v": 0
+                }
+            ],
+            "welcomeIvrOptions": []
+        }
+    },
+    "actions": [
+        {
+            "_id": "a-d09987df-562a-5ced-a814-a8515315e68c",
+            "refId": "15d0bcdb-d270-5e46-b883-9a8050067479",
+            "initializer": [],
+            "requestChain": [
+                {
+                    "linkDefinition": {
+                        "reqFields": [],
+                        "headerFields": [],
+                        "endPoint": {
+                            "host": "35.190.156.193",
+                            "port": "5000",
+                            "path": "/employeeDetails/maxSal",
+                            "protocol": "http",
+                            "content-type": "application/json",
+                            "method": "GET"
+                        }
+                    },
+                    "name": "MaxSalAPI",
+                    "linkType": "apiObject"
+                }
+            ],
+            "type": "webservice",
+            "subtype": "rest",
+            "sample": "{\"request\":{},\"labels\":{},\"_tenant_\":\"\",\"response\":{\"myCollection\":[{\"birth_date\":\"Sat, 14 Nov 1953 00:00:00 GMT\",\"emp_no\":43624,\"first_name\":\"Tokuyasu\",\"gender\":\"M\",\"hire_date\":\"Tue, 26 Mar 1985 00:00:00 GMT\",\"last_name\":\"Pesch\"}]},\"metainfo\":{\"MaxSalAPI\":{\"responseData\":{\"statusCode\":200,\"body\":\"{\\\"myCollection\\\":[{\\\"birth_date\\\":\\\"Sat, 14 Nov 1953 00:00:00 GMT\\\",\\\"emp_no\\\":43624,\\\"first_name\\\":\\\"Tokuyasu\\\",\\\"gender\\\":\\\"M\\\",\\\"hire_date\\\":\\\"Tue, 26 Mar 1985 00:00:00 GMT\\\",\\\"last_name\\\":\\\"Pesch\\\"}]}\\n\",\"headers\":{\"content-type\":\"application/json\",\"content-length\":\"182\",\"server\":\"KoreOps\",\"connection\":\"close\"}},\"fields\":{\"pathFields\":{},\"payloadFields\":{},\"headerFields\":{},\"idpFields\":[]},\"linkDefinition\":{\"endPoint\":{\"host\":\"35.190.156.193\",\"port\":\"5000\",\"path\":\"/employeeDetails/maxSal\",\"protocol\":\"http\",\"content-type\":\"application/json\",\"method\":\"GET\"},\"reqFields\":[],\"headerFields\":[],\"botVariables\":{},\"contentVariables\":{}},\"name\":\"MaxSalAPI\"}}}",
+            "payloadField": [],
+            "queryField": [],
+            "idp": "none",
+            "sso_type": "none",
+            "koreUxMap": {
+                "title": "<%  %>",
+                "body": "<%  %>",
+                "titleKeyword": ""
+            },
+            "channelUxMap": [
+                {
+                    "body": "Employee with Maximum Salary\nEmp Number: <%=response.myCollection[0].emp_no%>\nEmp First Name:<%=response.myCollection[0].first_name%>\nEmp Last Name:<%=response.myCollection[0].last_name%>\nEmp Hired Date:<%=response.myCollection[0].hire_date%>",
+                    "channel": "default",
+                    "isMarkdown": true
+                }
+            ],
+            "isReport": false,
+            "report": {},
+            "hasUserEndpoint": false,
+            "offKoraConfirmation": false,
+            "handleReportAndActionLinks": true,
+            "askOneOptionalField": false,
+            "mappedOnly": false,
+            "localeData": {
+                "en": {
+                    "name": "MaxSalEmployee",
+                    "shortDesc": "Max Salary Employee",
+                    "ignoreWords": [],
+                    "errorCodes": {
+                        "pollError": []
+                    },
+                    "keywords": []
+                }
+            }
+        },
+        {
+            "_id": "a-c0fc0dc7-4a69-50ec-bd45-df76f0518f95",
+            "refId": "a8fb11a0-b722-54dd-8e9e-52dfcef98b1a",
+            "initializer": [],
+            "requestChain": [
+                {
+                    "linkDefinition": {
+                        "reqFields": [],
+                        "headerFields": [],
+                        "endPoint": {
+                            "host": "35.190.156.193",
+                            "port": "5000",
+                            "path": "/employeeDetails/minSal",
+                            "protocol": "http",
+                            "content-type": "application/json",
+                            "method": "GET"
+                        }
+                    },
+                    "name": "MinSalEmpAPI",
+                    "linkType": "apiObject"
+                }
+            ],
+            "type": "webservice",
+            "subtype": "rest",
+            "sample": "{\"request\":{},\"labels\":{},\"_tenant_\":\"\",\"response\":{\"myCollection\":[{\"birth_date\":\"Wed, 23 Sep 1953 00:00:00 GMT\",\"emp_no\":253406,\"first_name\":\"Olivera\",\"gender\":\"M\",\"hire_date\":\"Mon, 04 Jul 1994 00:00:00 GMT\",\"last_name\":\"Baek\"}]},\"metainfo\":{\"MinSalEmpAPI\":{\"responseData\":{\"statusCode\":200,\"body\":\"{\\\"myCollection\\\":[{\\\"birth_date\\\":\\\"Wed, 23 Sep 1953 00:00:00 GMT\\\",\\\"emp_no\\\":253406,\\\"first_name\\\":\\\"Olivera\\\",\\\"gender\\\":\\\"M\\\",\\\"hire_date\\\":\\\"Mon, 04 Jul 1994 00:00:00 GMT\\\",\\\"last_name\\\":\\\"Baek\\\"}]}\\n\",\"headers\":{\"content-type\":\"application/json\",\"content-length\":\"181\",\"server\":\"KoreOps\",\"connection\":\"close\"}},\"fields\":{\"pathFields\":{},\"payloadFields\":{},\"headerFields\":{},\"idpFields\":[]},\"linkDefinition\":{\"endPoint\":{\"host\":\"35.190.156.193\",\"port\":\"5000\",\"path\":\"/employeeDetails/minSal\",\"protocol\":\"http\",\"content-type\":\"application/json\",\"method\":\"GET\"},\"reqFields\":[],\"headerFields\":[],\"botVariables\":{},\"contentVariables\":{}},\"name\":\"MinSalEmpAPI\"}}}",
+            "payloadField": [],
+            "queryField": [],
+            "idp": "none",
+            "sso_type": "none",
+            "koreUxMap": {
+                "title": "<%  %>",
+                "body": "<%  %>",
+                "titleKeyword": ""
+            },
+            "channelUxMap": [
+                {
+                    "body": "Employee with *Minimum* Salary\nEmp Name:<%=response.myCollection[0].first_name%> <%=response.myCollection[0].last_name%>\nEmp Number:<%=response.myCollection[0].emp_no%>\nEmp Hired Date:<%=response.myCollection[0].hire_date%>",
+                    "channel": "default",
+                    "isMarkdown": true
+                }
+            ],
+            "isReport": false,
+            "report": {},
+            "hasUserEndpoint": false,
+            "offKoraConfirmation": false,
+            "handleReportAndActionLinks": true,
+            "askOneOptionalField": false,
+            "mappedOnly": false,
+            "localeData": {
+                "en": {
+                    "name": "Minsalemployee",
+                    "shortDesc": "Minimum Salary Employee",
+                    "ignoreWords": [],
+                    "errorCodes": {
+                        "pollError": []
+                    },
+                    "keywords": []
+                }
+            }
+        },
+        {
+            "_id": "a-bfcd8e7e-a64e-5add-b37f-5be2200de5a5",
+            "refId": "3a409e22-db64-591e-b000-d29f8dea4f53",
+            "initializer": [],
+            "requestChain": [
+                {
+                    "linkDefinition": {
+                        "reqFields": [
+                            {
+                                "name": "empno",
+                                "key": "empno",
+                                "type": "queryfield",
+                                "subType": "task"
+                            }
+                        ],
+                        "headerFields": [],
+                        "endPoint": {
+                            "host": "35.190.156.193",
+                            "port": "5000",
+                            "path": "/employeeDetails/{empno}",
+                            "protocol": "http",
+                            "content-type": "application/json",
+                            "method": "GET"
+                        }
+                    },
+                    "name": "EmpDetailsAPI",
+                    "linkType": "apiObject"
+                }
+            ],
+            "type": "webservice",
+            "subtype": "rest",
+            "sample": "{\"request\":{\"empno\":\"10018\"},\"labels\":{},\"_tenant_\":\"\",\"response\":{\"myCollection\":[{\"birth_date\":\"Sat, 19 Jun 1954 00:00:00 GMT\",\"emp_no\":10018,\"first_name\":\"Kazuhide\",\"gender\":\"F\",\"hire_date\":\"Fri, 03 Apr 1987 00:00:00 GMT\",\"last_name\":\"Peha\"}]},\"metainfo\":{\"EmpDetailsAPI\":{\"responseData\":{\"statusCode\":200,\"body\":\"{\\\"myCollection\\\":[{\\\"birth_date\\\":\\\"Sat, 19 Jun 1954 00:00:00 GMT\\\",\\\"emp_no\\\":10018,\\\"first_name\\\":\\\"Kazuhide\\\",\\\"gender\\\":\\\"F\\\",\\\"hire_date\\\":\\\"Fri, 03 Apr 1987 00:00:00 GMT\\\",\\\"last_name\\\":\\\"Peha\\\"}]}\\n\",\"headers\":{\"content-type\":\"application/json\",\"content-length\":\"181\",\"server\":\"KoreOps\",\"connection\":\"close\"}},\"fields\":{\"pathFields\":{\"empno\":\"10018\"},\"payloadFields\":{},\"headerFields\":{},\"idpFields\":[]},\"linkDefinition\":{\"endPoint\":{\"host\":\"35.190.156.193\",\"port\":\"5000\",\"path\":\"/employeeDetails/{empno}\",\"protocol\":\"http\",\"content-type\":\"application/json\",\"method\":\"GET\"},\"reqFields\":[{\"name\":\"empno\",\"key\":\"empno\",\"type\":\"queryfield\",\"subType\":\"task\"}],\"headerFields\":[],\"botVariables\":{},\"contentVariables\":{}},\"name\":\"EmpDetailsAPI\"}}}",
+            "payloadField": [],
+            "hasQueryField": true,
+            "queryField": [
+                {
+                    "getFromSession": {
+                        "enabled": false
+                    },
+                    "key": "empno",
+                    "dependsOn": [],
+                    "isRequired": true,
+                    "isMultiSelect": false,
+                    "transpose": false,
+                    "metadata": "label",
+                    "type": "string",
+                    "fieldType": "textbox",
+                    "fieldIndex": "0",
+                    "staticDropDownFields": [],
+                    "fields": [],
+                    "allowMultiple": false,
+                    "localeData": {
+                        "en": {
+                            "title": "empno",
+                            "help": "Please provide employee number whose details you are looking for"
+                        }
+                    }
+                }
+            ],
+            "idp": "none",
+            "sso_type": "none",
+            "koreUxMap": {
+                "title": "<%  %>",
+                "body": "<%  %>",
+                "titleKeyword": ""
+            },
+            "channelUxMap": [
+                {
+                    "body": "<% print(\"Please find the Details of the employee you asked for \")\nprint(\"\\n Employee Number:\" + response.myCollection[0].emp_no )\nprint(\"\\n Employee Name:\" + response.myCollection[0].first_name + \" \" + response.myCollection[0].last_name)\nprint(\"\\n Employee Gender:\" + response.myCollection[0].gender)\nprint(\"\\n Employee Joined Date\" + response.myCollection[0].hire_date) %>",
+                    "channel": "default",
+                    "isMarkdown": false
+                }
+            ],
+            "isReport": false,
+            "report": {},
+            "hasUserEndpoint": false,
+            "offKoraConfirmation": false,
+            "handleReportAndActionLinks": true,
+            "askOneOptionalField": false,
+            "mappedOnly": false,
+            "localeData": {
+                "en": {
+                    "name": "Get Employee Details",
+                    "shortDesc": "Get Employee Details",
+                    "keywords": []
+                }
+            }
+        },
+        {
+            "_id": "a-8cbd4ee7-067c-54a4-94e5-61cf9dbe3290",
+            "refId": "6d791f55-1dd5-5b61-bec4-f3bc4bb19bad",
+            "initializer": [],
+            "requestChain": [
+                {
+                    "linkDefinition": {
+                        "reqFields": [],
+                        "headerFields": [],
+                        "endPoint": {
+                            "host": "35.190.156.193",
+                            "port": "5000",
+                            "path": "/employeeDetails/deptCount",
+                            "protocol": "http",
+                            "content-type": "application/json",
+                            "method": "GET"
+                        }
+                    },
+                    "name": "DeptCountAPI",
+                    "linkType": "apiObject"
+                }
+            ],
+            "type": "webservice",
+            "subtype": "rest",
+            "sample": "{\"request\":{},\"labels\":{},\"_tenant_\":\"\",\"response\":{\"myCollection\":[{\"counts\":23555,\"dept_name\":\"Customer Service\",\"dept_no\":\"d009\"},{\"counts\":85614,\"dept_name\":\"Development\",\"dept_no\":\"d005\"},{\"counts\":17334,\"dept_name\":\"Finance\",\"dept_no\":\"d002\"},{\"counts\":17768,\"dept_name\":\"Human Resources\",\"dept_no\":\"d003\"},{\"counts\":20201,\"dept_name\":\"Marketing\",\"dept_no\":\"d001\"},{\"counts\":73399,\"dept_name\":\"Production\",\"dept_no\":\"d004\"},{\"counts\":20095,\"dept_name\":\"Quality Management\",\"dept_no\":\"d006\"},{\"counts\":21110,\"dept_name\":\"Research\",\"dept_no\":\"d008\"},{\"counts\":52201,\"dept_name\":\"Sales\",\"dept_no\":\"d007\"}]},\"metainfo\":{\"DeptCountAPI\":{\"responseData\":{\"statusCode\":200,\"body\":\"{\\\"myCollection\\\":[{\\\"counts\\\":23555,\\\"dept_name\\\":\\\"Customer Service\\\",\\\"dept_no\\\":\\\"d009\\\"},{\\\"counts\\\":85614,\\\"dept_name\\\":\\\"Development\\\",\\\"dept_no\\\":\\\"d005\\\"},{\\\"counts\\\":17334,\\\"dept_name\\\":\\\"Finance\\\",\\\"dept_no\\\":\\\"d002\\\"},{\\\"counts\\\":17768,\\\"dept_name\\\":\\\"Human Resources\\\",\\\"dept_no\\\":\\\"d003\\\"},{\\\"counts\\\":20201,\\\"dept_name\\\":\\\"Marketing\\\",\\\"dept_no\\\":\\\"d001\\\"},{\\\"counts\\\":73399,\\\"dept_name\\\":\\\"Production\\\",\\\"dept_no\\\":\\\"d004\\\"},{\\\"counts\\\":20095,\\\"dept_name\\\":\\\"Quality Management\\\",\\\"dept_no\\\":\\\"d006\\\"},{\\\"counts\\\":21110,\\\"dept_name\\\":\\\"Research\\\",\\\"dept_no\\\":\\\"d008\\\"},{\\\"counts\\\":52201,\\\"dept_name\\\":\\\"Sales\\\",\\\"dept_no\\\":\\\"d007\\\"}]}\\n\",\"headers\":{\"content-type\":\"application/json\",\"content-length\":\"559\",\"server\":\"KoreOps\",\"connection\":\"close\"}},\"fields\":{\"pathFields\":{},\"payloadFields\":{},\"headerFields\":{},\"idpFields\":[]},\"linkDefinition\":{\"endPoint\":{\"host\":\"35.190.156.193\",\"port\":\"5000\",\"path\":\"/employeeDetails/deptCount\",\"protocol\":\"http\",\"content-type\":\"application/json\",\"method\":\"GET\"},\"reqFields\":[],\"headerFields\":[],\"botVariables\":{},\"contentVariables\":{}},\"name\":\"DeptCountAPI\"}}}",
+            "payloadField": [],
+            "queryField": [],
+            "idp": "none",
+            "sso_type": "none",
+            "koreUxMap": {
+                "title": "<%  %>",
+                "body": "<%  %>",
+                "titleKeyword": ""
+            },
+            "channelUxMap": [
+                {
+                    "body": "Here you go with the result - <%=reportInfo.reportLink%> <%=reportInfo.reportTitle%>",
+                    "channel": "default",
+                    "isMarkdown": true
+                }
+            ],
+            "isReport": true,
+            "report": {
+                "config": {
+                    "name": "tabular",
+                    "title": "Department Employee Count Details",
+                    "header": "Department Employee Counts",
+                    "templateInfo": [
+                        {
+                            "isLink": false,
+                            "isImage": false,
+                            "isHTML": false,
+                            "isSortable": true,
+                            "label": "dept_no",
+                            "dataType": "string",
+                            "key": "MTMuODY4NjE1NzQ2NjU0Mw"
+                        },
+                        {
+                            "isLink": false,
+                            "isImage": false,
+                            "isHTML": false,
+                            "isSortable": true,
+                            "label": "dept_name",
+                            "dataType": "string",
+                            "key": "NjEuMjg0Nzk0NDAyODQ3NDc"
+                        },
+                        {
+                            "isLink": false,
+                            "isImage": false,
+                            "isHTML": false,
+                            "isSortable": true,
+                            "label": "counts",
+                            "dataType": "number",
+                            "key": "ODkuNjIwMTg5MDkxOTM2Mzg"
+                        }
+                    ]
+                },
+                "mappings": [
+                    {
+                        "key": "MTMuODY4NjE1NzQ2NjU0Mw",
+                        "value": "<% print(dept_no) %>"
+                    },
+                    {
+                        "key": "NjEuMjg0Nzk0NDAyODQ3NDc",
+                        "value": "<% print(dept_name) %>"
+                    },
+                    {
+                        "key": "ODkuNjIwMTg5MDkxOTM2Mzg",
+                        "value": "<% print(counts) %>"
+                    }
+                ]
+            },
+            "hasUserEndpoint": false,
+            "offKoraConfirmation": false,
+            "handleReportAndActionLinks": true,
+            "askOneOptionalField": false,
+            "mappedOnly": false,
+            "localeData": {
+                "en": {
+                    "name": "Show All Dept Counts",
+                    "shortDesc": "Show All Dept Counts",
+                    "keywords": []
+                }
+            }
+        }
+    ],
+    "alerts": [],
+    "dialogs": [
+        {
+            "_id": "dg-dbb94349-52c5-5522-b050-575b934b5773",
+            "refId": "14328ec6-518e-5d01-8cf1-47ec9f956708",
+            "nodes": [
+                {
+                    "nodeOptions": {
+                        "transitionType": "auto",
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "noAutoCorrection": false,
+                        "notForReuse": false
+                    },
+                    "nodeId": "intent0",
+                    "type": "intent",
+                    "componentId": "dc-e641f30b-0667-51ad-92fe-461570fb0321",
+                    "transitions": [
+                        {
+                            "default": "entity1",
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy0"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "left": 30,
+                        "top": 170
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "transitionType": "auto",
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "interruptsEnabled": true,
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "precedence": "entityOverIntent"
+                    },
+                    "nodeId": "entity1",
+                    "type": "entity",
+                    "componentId": "dc-b12ba278-438a-5122-be1c-f3c27b126cb5",
+                    "transitions": [
+                        {
+                            "default": "service2",
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy1"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "left": 332,
+                        "top": 170
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "transitionType": "auto",
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "noAutoCorrection": false,
+                        "notForReuse": false
+                    },
+                    "nodeId": "service2",
+                    "type": "service",
+                    "componentId": "dc-9ec4dac4-3d50-5d8c-8313-512a1fcbe12b",
+                    "transitions": [
+                        {
+                            "default": "message4",
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy3"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "left": 634,
+                        "top": 170
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "transitionType": "auto",
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "noAutoCorrection": false,
+                        "notForReuse": false
+                    },
+                    "nodeId": "message4",
+                    "type": "message",
+                    "componentId": "dc-11207265-581d-55c4-ac28-3902a15f8437",
+                    "transitions": [
+                        {
+                            "default": "",
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy7"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "left": 936,
+                        "top": 170
+                    }
+                }
+            ],
+            "lname": "get employee details dialog",
+            "isHidden": false,
+            "localeData": {
+                "en": {
+                    "name": "Get Employee Details Dialog",
+                    "shortDesc": ""
+                }
+            },
+            "isFollowUp": false,
+            "interruptOptions": {
+                "priority": "bot"
+            },
+            "contextLifeTime": {
+                "options": "close"
+            },
+            "amendConfig": {
+                "priority": "bot"
+            }
+        }
+    ],
+    "dialogComponents": [
+        {
+            "_id": "dc-11207265-581d-55c4-ac28-3902a15f8437",
+            "refId": "2737f0a3-e384-572b-a4e6-053bc6bf3918",
+            "name": "Message0001",
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Sample message for Message0001",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "Message0001"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            }
+        },
+        {
+            "_id": "dc-9ec4dac4-3d50-5d8c-8313-512a1fcbe12b",
+            "refId": "8064e3e0-ca1e-520c-90ec-314ab5363b15",
+            "name": "EmployeeDetails",
+            "endPoint": {
+                "host": "35.190.156.193",
+                "port": "5000",
+                "path": "/employeeDetails/100018",
+                "protocol": "http",
+                "method": "get",
+                "connectorEnabled": false,
+                "piiDataEnabled": false
+            },
+            "authRequired": false,
+            "payload": {
+                "type": "raw",
+                "value": ""
+            },
+            "headers": {
+                "type": "raw",
+                "value": "{}"
+            },
+            "serviceType": "rest",
+            "idp": "none",
+            "serviceNodeType": "custom",
+            "type": "service",
+            "sampleResponse": [
+                {
+                    "response": "{\"myCollection\":[{\"birth_date\":\"Sat, 19 Jun 1954 00:00:00 GMT\",\"emp_no\":10018,\"first_name\":\"Kazuhide\",\"gender\":\"F\",\"hire_date\":\"Fri, 03 Apr 1987 00:00:00 GMT\",\"last_name\":\"Peha\"}]}",
+                    "name": "Employee Details",
+                    "isDefault": true
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "Employee Details Service"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "serviceAPITimeout": 20
+        },
+        {
+            "_id": "dc-b12ba278-438a-5122-be1c-f3c27b126cb5",
+            "refId": "a1879dad-0a49-56ec-8897-5fbb16c722b2",
+            "name": "EmpId",
+            "serviceNodeType": "custom",
+            "type": "entity",
+            "entityType": "label",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Input%20the%20Employee%20Number%20whose%20details%20to%20be%20fetched",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "errorMessage": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "I'm sorry, I am unable to recognize the string. Please enter again.",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "Employee Number Input",
+                    "synonyms": [
+                        "employee number",
+                        "emp no",
+                        "emp id"
+                    ]
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            }
+        },
+        {
+            "_id": "dc-e641f30b-0667-51ad-92fe-461570fb0321",
+            "refId": "719664d7-7afe-55b4-aecd-86869350e49c",
+            "name": "Get_Employee_Details_Dialog",
+            "serviceNodeType": "custom",
+            "type": "intent",
+            "applyDefaultTemplate": false,
+            "dialogId": "dg-dbb94349-52c5-5522-b050-575b934b5773",
+            "localeData": {
+                "en": {
+                    "desc": "",
+                    "intent": "Get Employee Details Dialog"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            }
+        }
+    ],
+    "knowledgeTasks": [],
+    "paramMaps": [],
+    "taskDgParamMaps": [],
+    "idpConfigurations": [],
+    "sentences": [],
+    "koraResponses": [],
+    "customTemplates": [],
+    "mlParams": [
+        {
+            "intentParams": {
+                "type": "V3",
+                "ngram": [
+                    1,
+                    1
+                ],
+                "minngram": 1,
+                "maxngram": 4,
+                "useSynonyms": false,
+                "f_negation": false,
+                "useStopwords": false,
+                "usePlaceholders": true,
+                "useTestPlaceholders": false
+            },
+            "nerParams": {
+                "type": "corenlp"
+            },
+            "intentData": {
+                "stopwords": "a about above abst accordance according accordingly across act actually adj  affected affecting affects afterwards again against ah all almost alone along  already also although always am among amongst an and announce another any anybody anyhow  anymore anyone anything anyway anyways anywhere apparently approximately are aren arent  arise around as aside ask asking at auth away awfully  b back be became because become becomes becoming been before beforehand begin beginning  beginnings begins behind being believe below beside besides between beyond biol both brief  briefly but by  c ca came cause causes certain certainly co com come comes contain  containing contains could couldnt  d did didn't different do does doesn't doing done don't down downwards during  e each ed edu effect eg either else elsewhere end ending enough especially  et et-al etc even ever every everybody everyone everything everywhere ex except  f far few ff fix followed following follows for former formerly forth  found from further furthermore  g gave get gets give given gives giving goes gone got gotten  h had happens hardly has hasn't haven't he hed hello hence her here hereafter hereby  herein heres hereupon hers herself hes hi hid him himself his hither home how howbeit however  i ie if i'll im immediate immediately importance important in inc indeed index information  instead into invention inward is isn't it itd it'll its itself i've 'm  j just  k keep keeps kept kg km know known knows  l largely last lately later latter latterly least less lest let lets like liked likely  line little 'll ltd  m made mainly make makes many may maybe me mean means meantime meanwhile merely mg  might miss ml more moreover most mostly mr mrs much mug must my myself  n na namely nay nd near nearly necessarily necessary needs neither never  nevertheless new next no nobody non none nonetheless noone nor normally  nos noted nothing now nowhere  o obtain obtained obviously of off often oh ok okay old omitted on once one ones only onto  or ord other others otherwise ought our ours ourselves over overall owing own  p page pages part particular particularly past per perhaps placed please plus poorly  possible possibly pp present previously primarily probably  promptly proud provides put q que quickly quite qv r ran rather rd re readily really  recent recently ref refs regarding regardless regards related relatively research  respectively resulted resulting results right run  s said same saw say saying says sec section see seeing seem seemed seeming seems seen  self selves sent seven several shall she shed she'll shes should shouldn't show showed  shown showns shows significant significantly similar similarly since slightly so some  somebody somehow someone somethan something sometime sometimes somewhat somewhere soon  sorry specifically specified specify specifying still stop strongly sub substantially  successfully such sufficiently sup sure  t take taken taking tell tends th than thank thanks thanx that that'll thats that've  the their theirs them themselves then thence there thereafter thereby thered therefore  therein there'll thereof therere theres thereto thereupon there've these they theyd they'll  theyre they've think this those thou though thoughh thousand throug through throughout  thru thus til tip to together too took toward towards tried tries truly try trying ts  twice u un under unfortunately unless unlike unlikely until unto up upon ups us use used useful  usefully usefulness uses using usually  v value various 've very via viz vol vols vs  w want wants was wasnt way we wed welcome we'll went were werent we've what whatever  what'll whats when whence whenever where whereafter whereas whereby wherein wheres  whereupon wherever whether which while whim whither who whod whoever whole who'll whom  whomever whos whose why widely willing wish with within without wont words world would  wouldnt www x y yes yet you youd you'll your youre yours yourself yourselves you've  z zero hey hello howdy bro good morning afternoon noon night bye thanks yeah yo no kk"
+            },
+            "language": "en",
+            "state": "configured"
+        }
+    ],
+    "contentVariables": [],
+    "exportOptions": {
+        "tasks": [
+            "botTask",
+            "knowledgeGraph"
+        ],
+        "nlpData": [
+            "nlpSettings",
+            "utterances",
+            "standardResponses"
+        ],
+        "settings": [
+            "botSettings",
+            "botVariables",
+            "ivrSettings"
+        ]
+    }
+}
