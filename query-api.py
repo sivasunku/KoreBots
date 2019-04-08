@@ -59,7 +59,7 @@ def getMinSal():
 def getDeptCount():
     cur = mysql.connect().cursor()
     query = """select dept_name,grp.*  
-               from ( (select dept_no,gender,count(*) 
+               from ( (select dept_no,gender,count(*)  as counts
                          from ( (select de.*,gender 
                                    from  dept_emp as de  
                                         ,employees as e  
@@ -123,6 +123,7 @@ def getProcessProcessStatus():
        from proc_status
       where now() >= start_time
         and now() <= end_time)
+ order by start_time
     ;
     """
     cur.execute(query)
@@ -172,7 +173,39 @@ def getProcessSchedule(when):
               for i, value in enumerate(row)) for row in cur.fetchall()]
     return jsonify(r)
 
+#When is current refresh completing
+@app.route('/process/refresh/endtime',methods=['GET'])
+def getProcessRefreshEndTime():
+    cur = mysql.connect().cursor()
+    query = """
+      select proc_name,max(end_time) as end_time
+        from proc_status
+       where setid = (select setid
+                        from proc_status
+                       where now() >= start_time
+                         and now() <= end_time)
+      ;
+    """
+    print("Process Refresh Query", query)
+    cur.execute(query)
+    r = [dict((cur.description[i][0], value)
+              for i, value in enumerate(row)) for row in cur.fetchall()]
+    print("Result:",r)
+    return jsonify(r)
 
+#Get Current Process - This gets the whole process subtask is part of
+@app.route('/process/alert',methods=['GET'])
+def getProcessAlert():
+    cur = mysql.connect().cursor()
+    query = """
+      select "Complete"
+        from dual
+      ;
+    """
+    cur.execute(query)
+    r = [dict((cur.description[i][0], value)
+              for i, value in enumerate(row)) for row in cur.fetchall()]
+    return jsonify(r)
 
 if __name__ == '__main__':
     app.run(debug = False,host = '0.0.0.0')

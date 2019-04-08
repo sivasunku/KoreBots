@@ -12,11 +12,11 @@ statusList = ['Disabled','Complete','Failure','Running','Waiting']
 # for that day
 
 #Start time in "CCYY-MM-DD HH:MM:SS"
-daily_stime = "09:00:00"
+daily_stime = "01:00:00"
 daily_etime = "20:00:00"
 sdate = "2019-04-04"
 edate = "2019-04-06"
-step = datetime.timedelta(minutes = 5)
+step = datetime.timedelta(minutes = 10)
 dt_stime = datetime.datetime.strptime(sdate + " " + daily_stime,'%Y-%m-%d %H:%M:%S')
 dt_etime = datetime.datetime.strptime(edate + " " + daily_etime,'%Y-%m-%d %H:%M:%S')
 
@@ -39,6 +39,6 @@ while dt_stime < dt_etime:
   procNo += 1
   procNo = procNo % len(procList)
   setId += 1
-  dt_stime = end.replace(minute=0) + datetime.timedelta(hours=1)
+  #dt_stime = end.replace(minute=0) + datetime.timedelta(hours=1)
   if dt_stime.time() > datetime.datetime.strptime(daily_etime,"%H:%M:%S").time():
-     dt_stime =  start.replace(hour=9,minute=0) + datetime.timedelta(days=1)
+     dt_stime =  start.replace(hour=1,minute=0) + datetime.timedelta(days=1)

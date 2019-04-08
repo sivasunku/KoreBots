@@ -15,6 +15,6 @@ update proc_status
 
 -- For all future ones random of 'Disabled,Waiting'
 update proc_status
-   set Status = ELT(1 + RAND()*2 ,'Disabled','Waiting','Waiting')
+   set Status = ELT(1 + RAND()*2 ,'Waiting','Waiting','Waiting')
  where start_time > now()
  ;

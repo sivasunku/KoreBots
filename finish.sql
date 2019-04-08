@@ -11,5 +11,3 @@ update proc_status
  where start_time > now()
    and date(start_time) = date(now())
  ;
-
-commit;
