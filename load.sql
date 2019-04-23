@@ -11,7 +11,7 @@ CREATE TABLE proc_status (
    Status       VARCHAR(20)     NOT NULL,
    PRIMARY KEY (setid,proc_name,task_name,start_time,end_time)
 );
-LOAD DATA LOCAL INFILE "/home/siva_sunku/KoreBots/data.csv"
+LOAD DATA LOCAL INFILE "/mntdata/KoreBots/data.csv"
 INTO TABLE proc_status
 COLUMNS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'

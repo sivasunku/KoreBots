@@ -15,7 +15,7 @@ statusList = ['Disabled','Complete','Failure','Running','Waiting']
 daily_stime = "01:00:00"
 daily_etime = "20:00:00"
 sdate = "2019-04-04"
-edate = "2019-04-06"
+edate = "2019-04-10"
 step = datetime.timedelta(minutes = 10)
 dt_stime = datetime.datetime.strptime(sdate + " " + daily_stime,'%Y-%m-%d %H:%M:%S')
 dt_etime = datetime.datetime.strptime(edate + " " + daily_etime,'%Y-%m-%d %H:%M:%S')

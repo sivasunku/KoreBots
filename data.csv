@@ -1,278 +1,278 @@
-1,Equities_Daily,PriceBand Changes,2019-04-04 01:00:00,2019-04-04 01:10:00,Complete
+1,Equities_Daily,PriceBand Changes,2019-04-04 01:00:00,2019-04-04 01:10:00,Disabled
 1,Equities_Daily,Reconciliation,2019-04-04 01:10:00,2019-04-04 01:20:00,Disabled
 1,Equities_Daily,BhavCopy,2019-04-04 01:20:00,2019-04-04 01:30:00,Disabled
-1,Equities_Daily,BlockDeals,2019-04-04 01:30:00,2019-04-04 01:40:00,Failure
+1,Equities_Daily,BlockDeals,2019-04-04 01:30:00,2019-04-04 01:40:00,Disabled
 1,Equities_Daily,SettlementStats,2019-04-04 01:40:00,2019-04-04 01:50:00,Failure
-1,Equities_Daily,Ledger,2019-04-04 01:50:00,2019-04-04 02:00:00,Failure
-2,Equities_Monthly,PriceBand Changes,2019-04-04 02:00:00,2019-04-04 02:10:00,Failure
+1,Equities_Daily,Ledger,2019-04-04 01:50:00,2019-04-04 02:00:00,Disabled
+2,Equities_Monthly,PriceBand Changes,2019-04-04 02:00:00,2019-04-04 02:10:00,Complete
 2,Equities_Monthly,Reconciliation,2019-04-04 02:10:00,2019-04-04 02:20:00,Complete
 2,Equities_Monthly,BhavCopy,2019-04-04 02:20:00,2019-04-04 02:30:00,Failure
 2,Equities_Monthly,BlockDeals,2019-04-04 02:30:00,2019-04-04 02:40:00,Disabled
-2,Equities_Monthly,SettlementStats,2019-04-04 02:40:00,2019-04-04 02:50:00,Complete
-2,Equities_Monthly,Ledger,2019-04-04 02:50:00,2019-04-04 03:00:00,Complete
+2,Equities_Monthly,SettlementStats,2019-04-04 02:40:00,2019-04-04 02:50:00,Failure
+2,Equities_Monthly,Ledger,2019-04-04 02:50:00,2019-04-04 03:00:00,Disabled
 3,Equities_Incremental,PriceBand Changes,2019-04-04 03:00:00,2019-04-04 03:10:00,Failure
 3,Equities_Incremental,Reconciliation,2019-04-04 03:10:00,2019-04-04 03:20:00,Complete
-3,Equities_Incremental,BhavCopy,2019-04-04 03:20:00,2019-04-04 03:30:00,Failure
+3,Equities_Incremental,BhavCopy,2019-04-04 03:20:00,2019-04-04 03:30:00,Disabled
 3,Equities_Incremental,BlockDeals,2019-04-04 03:30:00,2019-04-04 03:40:00,Disabled
-3,Equities_Incremental,SettlementStats,2019-04-04 03:40:00,2019-04-04 03:50:00,Failure
-3,Equities_Incremental,Ledger,2019-04-04 03:50:00,2019-04-04 04:00:00,Failure
-4,Equities_PostClose,PriceBand Changes,2019-04-04 04:00:00,2019-04-04 04:10:00,Disabled
-4,Equities_PostClose,Reconciliation,2019-04-04 04:10:00,2019-04-04 04:20:00,Failure
-4,Equities_PostClose,BhavCopy,2019-04-04 04:20:00,2019-04-04 04:30:00,Complete
-4,Equities_PostClose,BlockDeals,2019-04-04 04:30:00,2019-04-04 04:40:00,Disabled
-4,Equities_PostClose,SettlementStats,2019-04-04 04:40:00,2019-04-04 04:50:00,Disabled
+3,Equities_Incremental,SettlementStats,2019-04-04 03:40:00,2019-04-04 03:50:00,Disabled
+3,Equities_Incremental,Ledger,2019-04-04 03:50:00,2019-04-04 04:00:00,Complete
+4,Equities_PostClose,PriceBand Changes,2019-04-04 04:00:00,2019-04-04 04:10:00,Complete
+4,Equities_PostClose,Reconciliation,2019-04-04 04:10:00,2019-04-04 04:20:00,Disabled
+4,Equities_PostClose,BhavCopy,2019-04-04 04:20:00,2019-04-04 04:30:00,Failure
+4,Equities_PostClose,BlockDeals,2019-04-04 04:30:00,2019-04-04 04:40:00,Complete
+4,Equities_PostClose,SettlementStats,2019-04-04 04:40:00,2019-04-04 04:50:00,Complete
 4,Equities_PostClose,Ledger,2019-04-04 04:50:00,2019-04-04 05:00:00,Disabled
-5,Equities_Nightly,PriceBand Changes,2019-04-04 05:00:00,2019-04-04 05:10:00,Complete
-5,Equities_Nightly,Reconciliation,2019-04-04 05:10:00,2019-04-04 05:20:00,Complete
-5,Equities_Nightly,BhavCopy,2019-04-04 05:20:00,2019-04-04 05:30:00,Complete
-5,Equities_Nightly,BlockDeals,2019-04-04 05:30:00,2019-04-04 05:40:00,Failure
+5,Equities_Nightly,PriceBand Changes,2019-04-04 05:00:00,2019-04-04 05:10:00,Failure
+5,Equities_Nightly,Reconciliation,2019-04-04 05:10:00,2019-04-04 05:20:00,Failure
+5,Equities_Nightly,BhavCopy,2019-04-04 05:20:00,2019-04-04 05:30:00,Failure
+5,Equities_Nightly,BlockDeals,2019-04-04 05:30:00,2019-04-04 05:40:00,Complete
 5,Equities_Nightly,SettlementStats,2019-04-04 05:40:00,2019-04-04 05:50:00,Complete
 5,Equities_Nightly,Ledger,2019-04-04 05:50:00,2019-04-04 06:00:00,Failure
-6,Equities_Daily,PriceBand Changes,2019-04-04 06:00:00,2019-04-04 06:10:00,Failure
-6,Equities_Daily,Reconciliation,2019-04-04 06:10:00,2019-04-04 06:20:00,Failure
-6,Equities_Daily,BhavCopy,2019-04-04 06:20:00,2019-04-04 06:30:00,Failure
-6,Equities_Daily,BlockDeals,2019-04-04 06:30:00,2019-04-04 06:40:00,Complete
+6,Equities_Daily,PriceBand Changes,2019-04-04 06:00:00,2019-04-04 06:10:00,Disabled
+6,Equities_Daily,Reconciliation,2019-04-04 06:10:00,2019-04-04 06:20:00,Complete
+6,Equities_Daily,BhavCopy,2019-04-04 06:20:00,2019-04-04 06:30:00,Complete
+6,Equities_Daily,BlockDeals,2019-04-04 06:30:00,2019-04-04 06:40:00,Failure
 6,Equities_Daily,SettlementStats,2019-04-04 06:40:00,2019-04-04 06:50:00,Failure
-6,Equities_Daily,Ledger,2019-04-04 06:50:00,2019-04-04 07:00:00,Complete
+6,Equities_Daily,Ledger,2019-04-04 06:50:00,2019-04-04 07:00:00,Disabled
 7,Equities_Monthly,PriceBand Changes,2019-04-04 07:00:00,2019-04-04 07:10:00,Complete
-7,Equities_Monthly,Reconciliation,2019-04-04 07:10:00,2019-04-04 07:20:00,Failure
+7,Equities_Monthly,Reconciliation,2019-04-04 07:10:00,2019-04-04 07:20:00,Complete
 7,Equities_Monthly,BhavCopy,2019-04-04 07:20:00,2019-04-04 07:30:00,Complete
 7,Equities_Monthly,BlockDeals,2019-04-04 07:30:00,2019-04-04 07:40:00,Complete
-7,Equities_Monthly,SettlementStats,2019-04-04 07:40:00,2019-04-04 07:50:00,Complete
-7,Equities_Monthly,Ledger,2019-04-04 07:50:00,2019-04-04 08:00:00,Disabled
-8,Equities_Incremental,PriceBand Changes,2019-04-04 08:00:00,2019-04-04 08:10:00,Disabled
-8,Equities_Incremental,Reconciliation,2019-04-04 08:10:00,2019-04-04 08:20:00,Failure
-8,Equities_Incremental,BhavCopy,2019-04-04 08:20:00,2019-04-04 08:30:00,Failure
+7,Equities_Monthly,SettlementStats,2019-04-04 07:40:00,2019-04-04 07:50:00,Disabled
+7,Equities_Monthly,Ledger,2019-04-04 07:50:00,2019-04-04 08:00:00,Complete
+8,Equities_Incremental,PriceBand Changes,2019-04-04 08:00:00,2019-04-04 08:10:00,Failure
+8,Equities_Incremental,Reconciliation,2019-04-04 08:10:00,2019-04-04 08:20:00,Complete
+8,Equities_Incremental,BhavCopy,2019-04-04 08:20:00,2019-04-04 08:30:00,Disabled
 8,Equities_Incremental,BlockDeals,2019-04-04 08:30:00,2019-04-04 08:40:00,Complete
 8,Equities_Incremental,SettlementStats,2019-04-04 08:40:00,2019-04-04 08:50:00,Disabled
 8,Equities_Incremental,Ledger,2019-04-04 08:50:00,2019-04-04 09:00:00,Failure
-9,Equities_PostClose,PriceBand Changes,2019-04-04 09:00:00,2019-04-04 09:10:00,Complete
-9,Equities_PostClose,Reconciliation,2019-04-04 09:10:00,2019-04-04 09:20:00,Failure
+9,Equities_PostClose,PriceBand Changes,2019-04-04 09:00:00,2019-04-04 09:10:00,Failure
+9,Equities_PostClose,Reconciliation,2019-04-04 09:10:00,2019-04-04 09:20:00,Disabled
 9,Equities_PostClose,BhavCopy,2019-04-04 09:20:00,2019-04-04 09:30:00,Failure
 9,Equities_PostClose,BlockDeals,2019-04-04 09:30:00,2019-04-04 09:40:00,Disabled
-9,Equities_PostClose,SettlementStats,2019-04-04 09:40:00,2019-04-04 09:50:00,Failure
-9,Equities_PostClose,Ledger,2019-04-04 09:50:00,2019-04-04 10:00:00,Failure
-10,Equities_Nightly,PriceBand Changes,2019-04-04 10:00:00,2019-04-04 10:10:00,Disabled
+9,Equities_PostClose,SettlementStats,2019-04-04 09:40:00,2019-04-04 09:50:00,Complete
+9,Equities_PostClose,Ledger,2019-04-04 09:50:00,2019-04-04 10:00:00,Complete
+10,Equities_Nightly,PriceBand Changes,2019-04-04 10:00:00,2019-04-04 10:10:00,Complete
 10,Equities_Nightly,Reconciliation,2019-04-04 10:10:00,2019-04-04 10:20:00,Complete
-10,Equities_Nightly,BhavCopy,2019-04-04 10:20:00,2019-04-04 10:30:00,Disabled
-10,Equities_Nightly,BlockDeals,2019-04-04 10:30:00,2019-04-04 10:40:00,Failure
+10,Equities_Nightly,BhavCopy,2019-04-04 10:20:00,2019-04-04 10:30:00,Complete
+10,Equities_Nightly,BlockDeals,2019-04-04 10:30:00,2019-04-04 10:40:00,Disabled
 10,Equities_Nightly,SettlementStats,2019-04-04 10:40:00,2019-04-04 10:50:00,Failure
-10,Equities_Nightly,Ledger,2019-04-04 10:50:00,2019-04-04 11:00:00,Complete
+10,Equities_Nightly,Ledger,2019-04-04 10:50:00,2019-04-04 11:00:00,Disabled
 11,Equities_Daily,PriceBand Changes,2019-04-04 11:00:00,2019-04-04 11:10:00,Disabled
 11,Equities_Daily,Reconciliation,2019-04-04 11:10:00,2019-04-04 11:20:00,Disabled
 11,Equities_Daily,BhavCopy,2019-04-04 11:20:00,2019-04-04 11:30:00,Complete
 11,Equities_Daily,BlockDeals,2019-04-04 11:30:00,2019-04-04 11:40:00,Complete
-11,Equities_Daily,SettlementStats,2019-04-04 11:40:00,2019-04-04 11:50:00,Disabled
-11,Equities_Daily,Ledger,2019-04-04 11:50:00,2019-04-04 12:00:00,Disabled
-12,Equities_Monthly,PriceBand Changes,2019-04-04 12:00:00,2019-04-04 12:10:00,Disabled
-12,Equities_Monthly,Reconciliation,2019-04-04 12:10:00,2019-04-04 12:20:00,Disabled
+11,Equities_Daily,SettlementStats,2019-04-04 11:40:00,2019-04-04 11:50:00,Complete
+11,Equities_Daily,Ledger,2019-04-04 11:50:00,2019-04-04 12:00:00,Complete
+12,Equities_Monthly,PriceBand Changes,2019-04-04 12:00:00,2019-04-04 12:10:00,Failure
+12,Equities_Monthly,Reconciliation,2019-04-04 12:10:00,2019-04-04 12:20:00,Failure
 12,Equities_Monthly,BhavCopy,2019-04-04 12:20:00,2019-04-04 12:30:00,Complete
-12,Equities_Monthly,BlockDeals,2019-04-04 12:30:00,2019-04-04 12:40:00,Disabled
-12,Equities_Monthly,SettlementStats,2019-04-04 12:40:00,2019-04-04 12:50:00,Failure
-12,Equities_Monthly,Ledger,2019-04-04 12:50:00,2019-04-04 13:00:00,Disabled
-13,Equities_Incremental,PriceBand Changes,2019-04-04 13:00:00,2019-04-04 13:10:00,Complete
-13,Equities_Incremental,Reconciliation,2019-04-04 13:10:00,2019-04-04 13:20:00,Failure
-13,Equities_Incremental,BhavCopy,2019-04-04 13:20:00,2019-04-04 13:30:00,Failure
+12,Equities_Monthly,BlockDeals,2019-04-04 12:30:00,2019-04-04 12:40:00,Complete
+12,Equities_Monthly,SettlementStats,2019-04-04 12:40:00,2019-04-04 12:50:00,Disabled
+12,Equities_Monthly,Ledger,2019-04-04 12:50:00,2019-04-04 13:00:00,Complete
+13,Equities_Incremental,PriceBand Changes,2019-04-04 13:00:00,2019-04-04 13:10:00,Failure
+13,Equities_Incremental,Reconciliation,2019-04-04 13:10:00,2019-04-04 13:20:00,Complete
+13,Equities_Incremental,BhavCopy,2019-04-04 13:20:00,2019-04-04 13:30:00,Disabled
 13,Equities_Incremental,BlockDeals,2019-04-04 13:30:00,2019-04-04 13:40:00,Disabled
-13,Equities_Incremental,SettlementStats,2019-04-04 13:40:00,2019-04-04 13:50:00,Disabled
-13,Equities_Incremental,Ledger,2019-04-04 13:50:00,2019-04-04 14:00:00,Failure
+13,Equities_Incremental,SettlementStats,2019-04-04 13:40:00,2019-04-04 13:50:00,Complete
+13,Equities_Incremental,Ledger,2019-04-04 13:50:00,2019-04-04 14:00:00,Disabled
 14,Equities_PostClose,PriceBand Changes,2019-04-04 14:00:00,2019-04-04 14:10:00,Failure
-14,Equities_PostClose,Reconciliation,2019-04-04 14:10:00,2019-04-04 14:20:00,Failure
+14,Equities_PostClose,Reconciliation,2019-04-04 14:10:00,2019-04-04 14:20:00,Complete
 14,Equities_PostClose,BhavCopy,2019-04-04 14:20:00,2019-04-04 14:30:00,Disabled
-14,Equities_PostClose,BlockDeals,2019-04-04 14:30:00,2019-04-04 14:40:00,Complete
-14,Equities_PostClose,SettlementStats,2019-04-04 14:40:00,2019-04-04 14:50:00,Disabled
-14,Equities_PostClose,Ledger,2019-04-04 14:50:00,2019-04-04 15:00:00,Complete
+14,Equities_PostClose,BlockDeals,2019-04-04 14:30:00,2019-04-04 14:40:00,Failure
+14,Equities_PostClose,SettlementStats,2019-04-04 14:40:00,2019-04-04 14:50:00,Complete
+14,Equities_PostClose,Ledger,2019-04-04 14:50:00,2019-04-04 15:00:00,Failure
 15,Equities_Nightly,PriceBand Changes,2019-04-04 15:00:00,2019-04-04 15:10:00,Complete
 15,Equities_Nightly,Reconciliation,2019-04-04 15:10:00,2019-04-04 15:20:00,Complete
-15,Equities_Nightly,BhavCopy,2019-04-04 15:20:00,2019-04-04 15:30:00,Complete
-15,Equities_Nightly,BlockDeals,2019-04-04 15:30:00,2019-04-04 15:40:00,Complete
-15,Equities_Nightly,SettlementStats,2019-04-04 15:40:00,2019-04-04 15:50:00,Failure
-15,Equities_Nightly,Ledger,2019-04-04 15:50:00,2019-04-04 16:00:00,Complete
-16,Equities_Daily,PriceBand Changes,2019-04-04 16:00:00,2019-04-04 16:10:00,Disabled
-16,Equities_Daily,Reconciliation,2019-04-04 16:10:00,2019-04-04 16:20:00,Failure
-16,Equities_Daily,BhavCopy,2019-04-04 16:20:00,2019-04-04 16:30:00,Failure
+15,Equities_Nightly,BhavCopy,2019-04-04 15:20:00,2019-04-04 15:30:00,Disabled
+15,Equities_Nightly,BlockDeals,2019-04-04 15:30:00,2019-04-04 15:40:00,Failure
+15,Equities_Nightly,SettlementStats,2019-04-04 15:40:00,2019-04-04 15:50:00,Disabled
+15,Equities_Nightly,Ledger,2019-04-04 15:50:00,2019-04-04 16:00:00,Disabled
+16,Equities_Daily,PriceBand Changes,2019-04-04 16:00:00,2019-04-04 16:10:00,Complete
+16,Equities_Daily,Reconciliation,2019-04-04 16:10:00,2019-04-04 16:20:00,Complete
+16,Equities_Daily,BhavCopy,2019-04-04 16:20:00,2019-04-04 16:30:00,Complete
 16,Equities_Daily,BlockDeals,2019-04-04 16:30:00,2019-04-04 16:40:00,Complete
-16,Equities_Daily,SettlementStats,2019-04-04 16:40:00,2019-04-04 16:50:00,Failure
-16,Equities_Daily,Ledger,2019-04-04 16:50:00,2019-04-04 17:00:00,Complete
+16,Equities_Daily,SettlementStats,2019-04-04 16:40:00,2019-04-04 16:50:00,Complete
+16,Equities_Daily,Ledger,2019-04-04 16:50:00,2019-04-04 17:00:00,Failure
 17,Equities_Monthly,PriceBand Changes,2019-04-04 17:00:00,2019-04-04 17:10:00,Failure
 17,Equities_Monthly,Reconciliation,2019-04-04 17:10:00,2019-04-04 17:20:00,Failure
 17,Equities_Monthly,BhavCopy,2019-04-04 17:20:00,2019-04-04 17:30:00,Failure
 17,Equities_Monthly,BlockDeals,2019-04-04 17:30:00,2019-04-04 17:40:00,Complete
-17,Equities_Monthly,SettlementStats,2019-04-04 17:40:00,2019-04-04 17:50:00,Disabled
-17,Equities_Monthly,Ledger,2019-04-04 17:50:00,2019-04-04 18:00:00,Failure
-18,Equities_Incremental,PriceBand Changes,2019-04-04 18:00:00,2019-04-04 18:10:00,Disabled
-18,Equities_Incremental,Reconciliation,2019-04-04 18:10:00,2019-04-04 18:20:00,Disabled
+17,Equities_Monthly,SettlementStats,2019-04-04 17:40:00,2019-04-04 17:50:00,Failure
+17,Equities_Monthly,Ledger,2019-04-04 17:50:00,2019-04-04 18:00:00,Complete
+18,Equities_Incremental,PriceBand Changes,2019-04-04 18:00:00,2019-04-04 18:10:00,Failure
+18,Equities_Incremental,Reconciliation,2019-04-04 18:10:00,2019-04-04 18:20:00,Failure
 18,Equities_Incremental,BhavCopy,2019-04-04 18:20:00,2019-04-04 18:30:00,Complete
-18,Equities_Incremental,BlockDeals,2019-04-04 18:30:00,2019-04-04 18:40:00,Complete
-18,Equities_Incremental,SettlementStats,2019-04-04 18:40:00,2019-04-04 18:50:00,Complete
+18,Equities_Incremental,BlockDeals,2019-04-04 18:30:00,2019-04-04 18:40:00,Disabled
+18,Equities_Incremental,SettlementStats,2019-04-04 18:40:00,2019-04-04 18:50:00,Disabled
 18,Equities_Incremental,Ledger,2019-04-04 18:50:00,2019-04-04 19:00:00,Complete
-19,Equities_PostClose,PriceBand Changes,2019-04-04 19:00:00,2019-04-04 19:10:00,Disabled
-19,Equities_PostClose,Reconciliation,2019-04-04 19:10:00,2019-04-04 19:20:00,Failure
+19,Equities_PostClose,PriceBand Changes,2019-04-04 19:00:00,2019-04-04 19:10:00,Complete
+19,Equities_PostClose,Reconciliation,2019-04-04 19:10:00,2019-04-04 19:20:00,Complete
 19,Equities_PostClose,BhavCopy,2019-04-04 19:20:00,2019-04-04 19:30:00,Complete
-19,Equities_PostClose,BlockDeals,2019-04-04 19:30:00,2019-04-04 19:40:00,Failure
-19,Equities_PostClose,SettlementStats,2019-04-04 19:40:00,2019-04-04 19:50:00,Failure
+19,Equities_PostClose,BlockDeals,2019-04-04 19:30:00,2019-04-04 19:40:00,Complete
+19,Equities_PostClose,SettlementStats,2019-04-04 19:40:00,2019-04-04 19:50:00,Complete
 19,Equities_PostClose,Ledger,2019-04-04 19:50:00,2019-04-04 20:00:00,Failure
-20,Equities_Nightly,PriceBand Changes,2019-04-04 20:00:00,2019-04-04 20:10:00,Failure
-20,Equities_Nightly,Reconciliation,2019-04-04 20:10:00,2019-04-04 20:20:00,Failure
+20,Equities_Nightly,PriceBand Changes,2019-04-04 20:00:00,2019-04-04 20:10:00,Complete
+20,Equities_Nightly,Reconciliation,2019-04-04 20:10:00,2019-04-04 20:20:00,Complete
 20,Equities_Nightly,BhavCopy,2019-04-04 20:20:00,2019-04-04 20:30:00,Disabled
 20,Equities_Nightly,BlockDeals,2019-04-04 20:30:00,2019-04-04 20:40:00,Complete
-20,Equities_Nightly,SettlementStats,2019-04-04 20:40:00,2019-04-04 20:50:00,Complete
+20,Equities_Nightly,SettlementStats,2019-04-04 20:40:00,2019-04-04 20:50:00,Disabled
 20,Equities_Nightly,Ledger,2019-04-04 20:50:00,2019-04-04 21:00:00,Failure
-21,Equities_Daily,PriceBand Changes,2019-04-05 01:00:00,2019-04-05 01:10:00,Failure
-21,Equities_Daily,Reconciliation,2019-04-05 01:10:00,2019-04-05 01:20:00,Disabled
+21,Equities_Daily,PriceBand Changes,2019-04-05 01:00:00,2019-04-05 01:10:00,Disabled
+21,Equities_Daily,Reconciliation,2019-04-05 01:10:00,2019-04-05 01:20:00,Complete
 21,Equities_Daily,BhavCopy,2019-04-05 01:20:00,2019-04-05 01:30:00,Disabled
-21,Equities_Daily,BlockDeals,2019-04-05 01:30:00,2019-04-05 01:40:00,Complete
-21,Equities_Daily,SettlementStats,2019-04-05 01:40:00,2019-04-05 01:50:00,Disabled
+21,Equities_Daily,BlockDeals,2019-04-05 01:30:00,2019-04-05 01:40:00,Disabled
+21,Equities_Daily,SettlementStats,2019-04-05 01:40:00,2019-04-05 01:50:00,Complete
 21,Equities_Daily,Ledger,2019-04-05 01:50:00,2019-04-05 02:00:00,Failure
 22,Equities_Monthly,PriceBand Changes,2019-04-05 02:00:00,2019-04-05 02:10:00,Disabled
-22,Equities_Monthly,Reconciliation,2019-04-05 02:10:00,2019-04-05 02:20:00,Disabled
-22,Equities_Monthly,BhavCopy,2019-04-05 02:20:00,2019-04-05 02:30:00,Failure
-22,Equities_Monthly,BlockDeals,2019-04-05 02:30:00,2019-04-05 02:40:00,Disabled
-22,Equities_Monthly,SettlementStats,2019-04-05 02:40:00,2019-04-05 02:50:00,Failure
+22,Equities_Monthly,Reconciliation,2019-04-05 02:10:00,2019-04-05 02:20:00,Complete
+22,Equities_Monthly,BhavCopy,2019-04-05 02:20:00,2019-04-05 02:30:00,Disabled
+22,Equities_Monthly,BlockDeals,2019-04-05 02:30:00,2019-04-05 02:40:00,Complete
+22,Equities_Monthly,SettlementStats,2019-04-05 02:40:00,2019-04-05 02:50:00,Complete
 22,Equities_Monthly,Ledger,2019-04-05 02:50:00,2019-04-05 03:00:00,Complete
-23,Equities_Incremental,PriceBand Changes,2019-04-05 03:00:00,2019-04-05 03:10:00,Complete
+23,Equities_Incremental,PriceBand Changes,2019-04-05 03:00:00,2019-04-05 03:10:00,Failure
 23,Equities_Incremental,Reconciliation,2019-04-05 03:10:00,2019-04-05 03:20:00,Complete
 23,Equities_Incremental,BhavCopy,2019-04-05 03:20:00,2019-04-05 03:30:00,Complete
-23,Equities_Incremental,BlockDeals,2019-04-05 03:30:00,2019-04-05 03:40:00,Complete
+23,Equities_Incremental,BlockDeals,2019-04-05 03:30:00,2019-04-05 03:40:00,Failure
 23,Equities_Incremental,SettlementStats,2019-04-05 03:40:00,2019-04-05 03:50:00,Complete
-23,Equities_Incremental,Ledger,2019-04-05 03:50:00,2019-04-05 04:00:00,Failure
-24,Equities_PostClose,PriceBand Changes,2019-04-05 04:00:00,2019-04-05 04:10:00,Complete
-24,Equities_PostClose,Reconciliation,2019-04-05 04:10:00,2019-04-05 04:20:00,Disabled
-24,Equities_PostClose,BhavCopy,2019-04-05 04:20:00,2019-04-05 04:30:00,Failure
+23,Equities_Incremental,Ledger,2019-04-05 03:50:00,2019-04-05 04:00:00,Complete
+24,Equities_PostClose,PriceBand Changes,2019-04-05 04:00:00,2019-04-05 04:10:00,Failure
+24,Equities_PostClose,Reconciliation,2019-04-05 04:10:00,2019-04-05 04:20:00,Complete
+24,Equities_PostClose,BhavCopy,2019-04-05 04:20:00,2019-04-05 04:30:00,Complete
 24,Equities_PostClose,BlockDeals,2019-04-05 04:30:00,2019-04-05 04:40:00,Complete
-24,Equities_PostClose,SettlementStats,2019-04-05 04:40:00,2019-04-05 04:50:00,Disabled
-24,Equities_PostClose,Ledger,2019-04-05 04:50:00,2019-04-05 05:00:00,Complete
-25,Equities_Nightly,PriceBand Changes,2019-04-05 05:00:00,2019-04-05 05:10:00,Disabled
-25,Equities_Nightly,Reconciliation,2019-04-05 05:10:00,2019-04-05 05:20:00,Disabled
-25,Equities_Nightly,BhavCopy,2019-04-05 05:20:00,2019-04-05 05:30:00,Complete
-25,Equities_Nightly,BlockDeals,2019-04-05 05:30:00,2019-04-05 05:40:00,Disabled
+24,Equities_PostClose,SettlementStats,2019-04-05 04:40:00,2019-04-05 04:50:00,Failure
+24,Equities_PostClose,Ledger,2019-04-05 04:50:00,2019-04-05 05:00:00,Failure
+25,Equities_Nightly,PriceBand Changes,2019-04-05 05:00:00,2019-04-05 05:10:00,Failure
+25,Equities_Nightly,Reconciliation,2019-04-05 05:10:00,2019-04-05 05:20:00,Complete
+25,Equities_Nightly,BhavCopy,2019-04-05 05:20:00,2019-04-05 05:30:00,Failure
+25,Equities_Nightly,BlockDeals,2019-04-05 05:30:00,2019-04-05 05:40:00,Complete
 25,Equities_Nightly,SettlementStats,2019-04-05 05:40:00,2019-04-05 05:50:00,Failure
 25,Equities_Nightly,Ledger,2019-04-05 05:50:00,2019-04-05 06:00:00,Disabled
 26,Equities_Daily,PriceBand Changes,2019-04-05 06:00:00,2019-04-05 06:10:00,Disabled
-26,Equities_Daily,Reconciliation,2019-04-05 06:10:00,2019-04-05 06:20:00,Disabled
-26,Equities_Daily,BhavCopy,2019-04-05 06:20:00,2019-04-05 06:30:00,Failure
-26,Equities_Daily,BlockDeals,2019-04-05 06:30:00,2019-04-05 06:40:00,Disabled
-26,Equities_Daily,SettlementStats,2019-04-05 06:40:00,2019-04-05 06:50:00,Complete
-26,Equities_Daily,Ledger,2019-04-05 06:50:00,2019-04-05 07:00:00,Failure
+26,Equities_Daily,Reconciliation,2019-04-05 06:10:00,2019-04-05 06:20:00,Complete
+26,Equities_Daily,BhavCopy,2019-04-05 06:20:00,2019-04-05 06:30:00,Disabled
+26,Equities_Daily,BlockDeals,2019-04-05 06:30:00,2019-04-05 06:40:00,Failure
+26,Equities_Daily,SettlementStats,2019-04-05 06:40:00,2019-04-05 06:50:00,Disabled
+26,Equities_Daily,Ledger,2019-04-05 06:50:00,2019-04-05 07:00:00,Disabled
 27,Equities_Monthly,PriceBand Changes,2019-04-05 07:00:00,2019-04-05 07:10:00,Disabled
-27,Equities_Monthly,Reconciliation,2019-04-05 07:10:00,2019-04-05 07:20:00,Disabled
+27,Equities_Monthly,Reconciliation,2019-04-05 07:10:00,2019-04-05 07:20:00,Complete
 27,Equities_Monthly,BhavCopy,2019-04-05 07:20:00,2019-04-05 07:30:00,Disabled
-27,Equities_Monthly,BlockDeals,2019-04-05 07:30:00,2019-04-05 07:40:00,Complete
+27,Equities_Monthly,BlockDeals,2019-04-05 07:30:00,2019-04-05 07:40:00,Disabled
 27,Equities_Monthly,SettlementStats,2019-04-05 07:40:00,2019-04-05 07:50:00,Failure
-27,Equities_Monthly,Ledger,2019-04-05 07:50:00,2019-04-05 08:00:00,Failure
-28,Equities_Incremental,PriceBand Changes,2019-04-05 08:00:00,2019-04-05 08:10:00,Failure
+27,Equities_Monthly,Ledger,2019-04-05 07:50:00,2019-04-05 08:00:00,Disabled
+28,Equities_Incremental,PriceBand Changes,2019-04-05 08:00:00,2019-04-05 08:10:00,Complete
 28,Equities_Incremental,Reconciliation,2019-04-05 08:10:00,2019-04-05 08:20:00,Complete
-28,Equities_Incremental,BhavCopy,2019-04-05 08:20:00,2019-04-05 08:30:00,Complete
-28,Equities_Incremental,BlockDeals,2019-04-05 08:30:00,2019-04-05 08:40:00,Complete
-28,Equities_Incremental,SettlementStats,2019-04-05 08:40:00,2019-04-05 08:50:00,Failure
+28,Equities_Incremental,BhavCopy,2019-04-05 08:20:00,2019-04-05 08:30:00,Disabled
+28,Equities_Incremental,BlockDeals,2019-04-05 08:30:00,2019-04-05 08:40:00,Failure
+28,Equities_Incremental,SettlementStats,2019-04-05 08:40:00,2019-04-05 08:50:00,Complete
 28,Equities_Incremental,Ledger,2019-04-05 08:50:00,2019-04-05 09:00:00,Failure
 29,Equities_PostClose,PriceBand Changes,2019-04-05 09:00:00,2019-04-05 09:10:00,Failure
-29,Equities_PostClose,Reconciliation,2019-04-05 09:10:00,2019-04-05 09:20:00,Failure
-29,Equities_PostClose,BhavCopy,2019-04-05 09:20:00,2019-04-05 09:30:00,Disabled
-29,Equities_PostClose,BlockDeals,2019-04-05 09:30:00,2019-04-05 09:40:00,Failure
-29,Equities_PostClose,SettlementStats,2019-04-05 09:40:00,2019-04-05 09:50:00,Complete
-29,Equities_PostClose,Ledger,2019-04-05 09:50:00,2019-04-05 10:00:00,Failure
+29,Equities_PostClose,Reconciliation,2019-04-05 09:10:00,2019-04-05 09:20:00,Disabled
+29,Equities_PostClose,BhavCopy,2019-04-05 09:20:00,2019-04-05 09:30:00,Complete
+29,Equities_PostClose,BlockDeals,2019-04-05 09:30:00,2019-04-05 09:40:00,Disabled
+29,Equities_PostClose,SettlementStats,2019-04-05 09:40:00,2019-04-05 09:50:00,Disabled
+29,Equities_PostClose,Ledger,2019-04-05 09:50:00,2019-04-05 10:00:00,Disabled
 30,Equities_Nightly,PriceBand Changes,2019-04-05 10:00:00,2019-04-05 10:10:00,Disabled
 30,Equities_Nightly,Reconciliation,2019-04-05 10:10:00,2019-04-05 10:20:00,Complete
-30,Equities_Nightly,BhavCopy,2019-04-05 10:20:00,2019-04-05 10:30:00,Disabled
+30,Equities_Nightly,BhavCopy,2019-04-05 10:20:00,2019-04-05 10:30:00,Failure
 30,Equities_Nightly,BlockDeals,2019-04-05 10:30:00,2019-04-05 10:40:00,Complete
-30,Equities_Nightly,SettlementStats,2019-04-05 10:40:00,2019-04-05 10:50:00,Failure
-30,Equities_Nightly,Ledger,2019-04-05 10:50:00,2019-04-05 11:00:00,Complete
-31,Equities_Daily,PriceBand Changes,2019-04-05 11:00:00,2019-04-05 11:10:00,Failure
-31,Equities_Daily,Reconciliation,2019-04-05 11:10:00,2019-04-05 11:20:00,Disabled
+30,Equities_Nightly,SettlementStats,2019-04-05 10:40:00,2019-04-05 10:50:00,Disabled
+30,Equities_Nightly,Ledger,2019-04-05 10:50:00,2019-04-05 11:00:00,Disabled
+31,Equities_Daily,PriceBand Changes,2019-04-05 11:00:00,2019-04-05 11:10:00,Disabled
+31,Equities_Daily,Reconciliation,2019-04-05 11:10:00,2019-04-05 11:20:00,Complete
 31,Equities_Daily,BhavCopy,2019-04-05 11:20:00,2019-04-05 11:30:00,Failure
-31,Equities_Daily,BlockDeals,2019-04-05 11:30:00,2019-04-05 11:40:00,Failure
+31,Equities_Daily,BlockDeals,2019-04-05 11:30:00,2019-04-05 11:40:00,Disabled
 31,Equities_Daily,SettlementStats,2019-04-05 11:40:00,2019-04-05 11:50:00,Failure
 31,Equities_Daily,Ledger,2019-04-05 11:50:00,2019-04-05 12:00:00,Failure
-32,Equities_Monthly,PriceBand Changes,2019-04-05 12:00:00,2019-04-05 12:10:00,Failure
-32,Equities_Monthly,Reconciliation,2019-04-05 12:10:00,2019-04-05 12:20:00,Failure
+32,Equities_Monthly,PriceBand Changes,2019-04-05 12:00:00,2019-04-05 12:10:00,Disabled
+32,Equities_Monthly,Reconciliation,2019-04-05 12:10:00,2019-04-05 12:20:00,Complete
 32,Equities_Monthly,BhavCopy,2019-04-05 12:20:00,2019-04-05 12:30:00,Failure
-32,Equities_Monthly,BlockDeals,2019-04-05 12:30:00,2019-04-05 12:40:00,Disabled
-32,Equities_Monthly,SettlementStats,2019-04-05 12:40:00,2019-04-05 12:50:00,Failure
-32,Equities_Monthly,Ledger,2019-04-05 12:50:00,2019-04-05 13:00:00,Failure
-33,Equities_Incremental,PriceBand Changes,2019-04-05 13:00:00,2019-04-05 13:10:00,Complete
-33,Equities_Incremental,Reconciliation,2019-04-05 13:10:00,2019-04-05 13:20:00,Complete
-33,Equities_Incremental,BhavCopy,2019-04-05 13:20:00,2019-04-05 13:30:00,Failure
-33,Equities_Incremental,BlockDeals,2019-04-05 13:30:00,2019-04-05 13:40:00,Failure
+32,Equities_Monthly,BlockDeals,2019-04-05 12:30:00,2019-04-05 12:40:00,Failure
+32,Equities_Monthly,SettlementStats,2019-04-05 12:40:00,2019-04-05 12:50:00,Complete
+32,Equities_Monthly,Ledger,2019-04-05 12:50:00,2019-04-05 13:00:00,Disabled
+33,Equities_Incremental,PriceBand Changes,2019-04-05 13:00:00,2019-04-05 13:10:00,Failure
+33,Equities_Incremental,Reconciliation,2019-04-05 13:10:00,2019-04-05 13:20:00,Failure
+33,Equities_Incremental,BhavCopy,2019-04-05 13:20:00,2019-04-05 13:30:00,Disabled
+33,Equities_Incremental,BlockDeals,2019-04-05 13:30:00,2019-04-05 13:40:00,Complete
 33,Equities_Incremental,SettlementStats,2019-04-05 13:40:00,2019-04-05 13:50:00,Failure
 33,Equities_Incremental,Ledger,2019-04-05 13:50:00,2019-04-05 14:00:00,Complete
 34,Equities_PostClose,PriceBand Changes,2019-04-05 14:00:00,2019-04-05 14:10:00,Failure
-34,Equities_PostClose,Reconciliation,2019-04-05 14:10:00,2019-04-05 14:20:00,Failure
+34,Equities_PostClose,Reconciliation,2019-04-05 14:10:00,2019-04-05 14:20:00,Disabled
 34,Equities_PostClose,BhavCopy,2019-04-05 14:20:00,2019-04-05 14:30:00,Complete
-34,Equities_PostClose,BlockDeals,2019-04-05 14:30:00,2019-04-05 14:40:00,Failure
-34,Equities_PostClose,SettlementStats,2019-04-05 14:40:00,2019-04-05 14:50:00,Failure
+34,Equities_PostClose,BlockDeals,2019-04-05 14:30:00,2019-04-05 14:40:00,Disabled
+34,Equities_PostClose,SettlementStats,2019-04-05 14:40:00,2019-04-05 14:50:00,Complete
 34,Equities_PostClose,Ledger,2019-04-05 14:50:00,2019-04-05 15:00:00,Disabled
-35,Equities_Nightly,PriceBand Changes,2019-04-05 15:00:00,2019-04-05 15:10:00,Failure
+35,Equities_Nightly,PriceBand Changes,2019-04-05 15:00:00,2019-04-05 15:10:00,Complete
 35,Equities_Nightly,Reconciliation,2019-04-05 15:10:00,2019-04-05 15:20:00,Failure
-35,Equities_Nightly,BhavCopy,2019-04-05 15:20:00,2019-04-05 15:30:00,Disabled
-35,Equities_Nightly,BlockDeals,2019-04-05 15:30:00,2019-04-05 15:40:00,Complete
-35,Equities_Nightly,SettlementStats,2019-04-05 15:40:00,2019-04-05 15:50:00,Failure
+35,Equities_Nightly,BhavCopy,2019-04-05 15:20:00,2019-04-05 15:30:00,Complete
+35,Equities_Nightly,BlockDeals,2019-04-05 15:30:00,2019-04-05 15:40:00,Disabled
+35,Equities_Nightly,SettlementStats,2019-04-05 15:40:00,2019-04-05 15:50:00,Disabled
 35,Equities_Nightly,Ledger,2019-04-05 15:50:00,2019-04-05 16:00:00,Disabled
-36,Equities_Daily,PriceBand Changes,2019-04-05 16:00:00,2019-04-05 16:10:00,Complete
-36,Equities_Daily,Reconciliation,2019-04-05 16:10:00,2019-04-05 16:20:00,Complete
-36,Equities_Daily,BhavCopy,2019-04-05 16:20:00,2019-04-05 16:30:00,Failure
-36,Equities_Daily,BlockDeals,2019-04-05 16:30:00,2019-04-05 16:40:00,Disabled
+36,Equities_Daily,PriceBand Changes,2019-04-05 16:00:00,2019-04-05 16:10:00,Failure
+36,Equities_Daily,Reconciliation,2019-04-05 16:10:00,2019-04-05 16:20:00,Failure
+36,Equities_Daily,BhavCopy,2019-04-05 16:20:00,2019-04-05 16:30:00,Disabled
+36,Equities_Daily,BlockDeals,2019-04-05 16:30:00,2019-04-05 16:40:00,Complete
 36,Equities_Daily,SettlementStats,2019-04-05 16:40:00,2019-04-05 16:50:00,Complete
 36,Equities_Daily,Ledger,2019-04-05 16:50:00,2019-04-05 17:00:00,Failure
-37,Equities_Monthly,PriceBand Changes,2019-04-05 17:00:00,2019-04-05 17:10:00,Complete
+37,Equities_Monthly,PriceBand Changes,2019-04-05 17:00:00,2019-04-05 17:10:00,Failure
 37,Equities_Monthly,Reconciliation,2019-04-05 17:10:00,2019-04-05 17:20:00,Complete
-37,Equities_Monthly,BhavCopy,2019-04-05 17:20:00,2019-04-05 17:30:00,Failure
-37,Equities_Monthly,BlockDeals,2019-04-05 17:30:00,2019-04-05 17:40:00,Failure
+37,Equities_Monthly,BhavCopy,2019-04-05 17:20:00,2019-04-05 17:30:00,Disabled
+37,Equities_Monthly,BlockDeals,2019-04-05 17:30:00,2019-04-05 17:40:00,Complete
 37,Equities_Monthly,SettlementStats,2019-04-05 17:40:00,2019-04-05 17:50:00,Disabled
-37,Equities_Monthly,Ledger,2019-04-05 17:50:00,2019-04-05 18:00:00,Disabled
-38,Equities_Incremental,PriceBand Changes,2019-04-05 18:00:00,2019-04-05 18:10:00,Disabled
+37,Equities_Monthly,Ledger,2019-04-05 17:50:00,2019-04-05 18:00:00,Complete
+38,Equities_Incremental,PriceBand Changes,2019-04-05 18:00:00,2019-04-05 18:10:00,Failure
 38,Equities_Incremental,Reconciliation,2019-04-05 18:10:00,2019-04-05 18:20:00,Complete
-38,Equities_Incremental,BhavCopy,2019-04-05 18:20:00,2019-04-05 18:30:00,Disabled
-38,Equities_Incremental,BlockDeals,2019-04-05 18:30:00,2019-04-05 18:40:00,Disabled
-38,Equities_Incremental,SettlementStats,2019-04-05 18:40:00,2019-04-05 18:50:00,Complete
-38,Equities_Incremental,Ledger,2019-04-05 18:50:00,2019-04-05 19:00:00,Failure
-39,Equities_PostClose,PriceBand Changes,2019-04-05 19:00:00,2019-04-05 19:10:00,Disabled
+38,Equities_Incremental,BhavCopy,2019-04-05 18:20:00,2019-04-05 18:30:00,Complete
+38,Equities_Incremental,BlockDeals,2019-04-05 18:30:00,2019-04-05 18:40:00,Complete
+38,Equities_Incremental,SettlementStats,2019-04-05 18:40:00,2019-04-05 18:50:00,Failure
+38,Equities_Incremental,Ledger,2019-04-05 18:50:00,2019-04-05 19:00:00,Disabled
+39,Equities_PostClose,PriceBand Changes,2019-04-05 19:00:00,2019-04-05 19:10:00,Complete
 39,Equities_PostClose,Reconciliation,2019-04-05 19:10:00,2019-04-05 19:20:00,Complete
-39,Equities_PostClose,BhavCopy,2019-04-05 19:20:00,2019-04-05 19:30:00,Complete
-39,Equities_PostClose,BlockDeals,2019-04-05 19:30:00,2019-04-05 19:40:00,Disabled
-39,Equities_PostClose,SettlementStats,2019-04-05 19:40:00,2019-04-05 19:50:00,Failure
+39,Equities_PostClose,BhavCopy,2019-04-05 19:20:00,2019-04-05 19:30:00,Failure
+39,Equities_PostClose,BlockDeals,2019-04-05 19:30:00,2019-04-05 19:40:00,Complete
+39,Equities_PostClose,SettlementStats,2019-04-05 19:40:00,2019-04-05 19:50:00,Complete
 39,Equities_PostClose,Ledger,2019-04-05 19:50:00,2019-04-05 20:00:00,Failure
 40,Equities_Nightly,PriceBand Changes,2019-04-05 20:00:00,2019-04-05 20:10:00,Disabled
-40,Equities_Nightly,Reconciliation,2019-04-05 20:10:00,2019-04-05 20:20:00,Failure
-40,Equities_Nightly,BhavCopy,2019-04-05 20:20:00,2019-04-05 20:30:00,Failure
+40,Equities_Nightly,Reconciliation,2019-04-05 20:10:00,2019-04-05 20:20:00,Complete
+40,Equities_Nightly,BhavCopy,2019-04-05 20:20:00,2019-04-05 20:30:00,Disabled
 40,Equities_Nightly,BlockDeals,2019-04-05 20:30:00,2019-04-05 20:40:00,Failure
-40,Equities_Nightly,SettlementStats,2019-04-05 20:40:00,2019-04-05 20:50:00,Disabled
-40,Equities_Nightly,Ledger,2019-04-05 20:50:00,2019-04-05 21:00:00,Failure
-41,Equities_Daily,PriceBand Changes,2019-04-06 01:00:00,2019-04-06 01:10:00,Complete
-41,Equities_Daily,Reconciliation,2019-04-06 01:10:00,2019-04-06 01:20:00,Disabled
-41,Equities_Daily,BhavCopy,2019-04-06 01:20:00,2019-04-06 01:30:00,Disabled
-41,Equities_Daily,BlockDeals,2019-04-06 01:30:00,2019-04-06 01:40:00,Complete
-41,Equities_Daily,SettlementStats,2019-04-06 01:40:00,2019-04-06 01:50:00,Failure
-41,Equities_Daily,Ledger,2019-04-06 01:50:00,2019-04-06 02:00:00,Disabled
-42,Equities_Monthly,PriceBand Changes,2019-04-06 02:00:00,2019-04-06 02:10:00,Failure
-42,Equities_Monthly,Reconciliation,2019-04-06 02:10:00,2019-04-06 02:20:00,Failure
-42,Equities_Monthly,BhavCopy,2019-04-06 02:20:00,2019-04-06 02:30:00,Disabled
-42,Equities_Monthly,BlockDeals,2019-04-06 02:30:00,2019-04-06 02:40:00,Complete
+40,Equities_Nightly,SettlementStats,2019-04-05 20:40:00,2019-04-05 20:50:00,Failure
+40,Equities_Nightly,Ledger,2019-04-05 20:50:00,2019-04-05 21:00:00,Complete
+41,Equities_Daily,PriceBand Changes,2019-04-06 01:00:00,2019-04-06 01:10:00,Disabled
+41,Equities_Daily,Reconciliation,2019-04-06 01:10:00,2019-04-06 01:20:00,Failure
+41,Equities_Daily,BhavCopy,2019-04-06 01:20:00,2019-04-06 01:30:00,Failure
+41,Equities_Daily,BlockDeals,2019-04-06 01:30:00,2019-04-06 01:40:00,Failure
+41,Equities_Daily,SettlementStats,2019-04-06 01:40:00,2019-04-06 01:50:00,Complete
+41,Equities_Daily,Ledger,2019-04-06 01:50:00,2019-04-06 02:00:00,Complete
+42,Equities_Monthly,PriceBand Changes,2019-04-06 02:00:00,2019-04-06 02:10:00,Complete
+42,Equities_Monthly,Reconciliation,2019-04-06 02:10:00,2019-04-06 02:20:00,Disabled
+42,Equities_Monthly,BhavCopy,2019-04-06 02:20:00,2019-04-06 02:30:00,Failure
+42,Equities_Monthly,BlockDeals,2019-04-06 02:30:00,2019-04-06 02:40:00,Disabled
 42,Equities_Monthly,SettlementStats,2019-04-06 02:40:00,2019-04-06 02:50:00,Complete
-42,Equities_Monthly,Ledger,2019-04-06 02:50:00,2019-04-06 03:00:00,Disabled
-43,Equities_Incremental,PriceBand Changes,2019-04-06 03:00:00,2019-04-06 03:10:00,Failure
-43,Equities_Incremental,Reconciliation,2019-04-06 03:10:00,2019-04-06 03:20:00,Complete
-43,Equities_Incremental,BhavCopy,2019-04-06 03:20:00,2019-04-06 03:30:00,Disabled
+42,Equities_Monthly,Ledger,2019-04-06 02:50:00,2019-04-06 03:00:00,Complete
+43,Equities_Incremental,PriceBand Changes,2019-04-06 03:00:00,2019-04-06 03:10:00,Disabled
+43,Equities_Incremental,Reconciliation,2019-04-06 03:10:00,2019-04-06 03:20:00,Disabled
+43,Equities_Incremental,BhavCopy,2019-04-06 03:20:00,2019-04-06 03:30:00,Complete
 43,Equities_Incremental,BlockDeals,2019-04-06 03:30:00,2019-04-06 03:40:00,Failure
-43,Equities_Incremental,SettlementStats,2019-04-06 03:40:00,2019-04-06 03:50:00,Failure
-43,Equities_Incremental,Ledger,2019-04-06 03:50:00,2019-04-06 04:00:00,Failure
-44,Equities_PostClose,PriceBand Changes,2019-04-06 04:00:00,2019-04-06 04:10:00,Complete
+43,Equities_Incremental,SettlementStats,2019-04-06 03:40:00,2019-04-06 03:50:00,Disabled
+43,Equities_Incremental,Ledger,2019-04-06 03:50:00,2019-04-06 04:00:00,Disabled
+44,Equities_PostClose,PriceBand Changes,2019-04-06 04:00:00,2019-04-06 04:10:00,Disabled
 44,Equities_PostClose,Reconciliation,2019-04-06 04:10:00,2019-04-06 04:20:00,Disabled
-44,Equities_PostClose,BhavCopy,2019-04-06 04:20:00,2019-04-06 04:30:00,Complete
-44,Equities_PostClose,BlockDeals,2019-04-06 04:30:00,2019-04-06 04:40:00,Disabled
-44,Equities_PostClose,SettlementStats,2019-04-06 04:40:00,2019-04-06 04:50:00,Complete
-44,Equities_PostClose,Ledger,2019-04-06 04:50:00,2019-04-06 05:00:00,Failure
-45,Equities_Nightly,PriceBand Changes,2019-04-06 05:00:00,2019-04-06 05:10:00,Failure
-45,Equities_Nightly,Reconciliation,2019-04-06 05:10:00,2019-04-06 05:20:00,Disabled
-45,Equities_Nightly,BhavCopy,2019-04-06 05:20:00,2019-04-06 05:30:00,Complete
-45,Equities_Nightly,BlockDeals,2019-04-06 05:30:00,2019-04-06 05:40:00,Disabled
-45,Equities_Nightly,SettlementStats,2019-04-06 05:40:00,2019-04-06 05:50:00,Disabled
+44,Equities_PostClose,BhavCopy,2019-04-06 04:20:00,2019-04-06 04:30:00,Disabled
+44,Equities_PostClose,BlockDeals,2019-04-06 04:30:00,2019-04-06 04:40:00,Failure
+44,Equities_PostClose,SettlementStats,2019-04-06 04:40:00,2019-04-06 04:50:00,Failure
+44,Equities_PostClose,Ledger,2019-04-06 04:50:00,2019-04-06 05:00:00,Disabled
+45,Equities_Nightly,PriceBand Changes,2019-04-06 05:00:00,2019-04-06 05:10:00,Complete
+45,Equities_Nightly,Reconciliation,2019-04-06 05:10:00,2019-04-06 05:20:00,Complete
+45,Equities_Nightly,BhavCopy,2019-04-06 05:20:00,2019-04-06 05:30:00,Disabled
+45,Equities_Nightly,BlockDeals,2019-04-06 05:30:00,2019-04-06 05:40:00,Failure
+45,Equities_Nightly,SettlementStats,2019-04-06 05:40:00,2019-04-06 05:50:00,Failure
 45,Equities_Nightly,Ledger,2019-04-06 05:50:00,2019-04-06 06:00:00,Complete
-46,Equities_Daily,PriceBand Changes,2019-04-06 06:00:00,2019-04-06 06:10:00,Failure
+46,Equities_Daily,PriceBand Changes,2019-04-06 06:00:00,2019-04-06 06:10:00,Disabled
 46,Equities_Daily,Reconciliation,2019-04-06 06:10:00,2019-04-06 06:20:00,Disabled
 46,Equities_Daily,BhavCopy,2019-04-06 06:20:00,2019-04-06 06:30:00,Complete
-46,Equities_Daily,BlockDeals,2019-04-06 06:30:00,2019-04-06 06:40:00,Disabled
-46,Equities_Daily,SettlementStats,2019-04-06 06:40:00,2019-04-06 06:50:00,Failure
+46,Equities_Daily,BlockDeals,2019-04-06 06:30:00,2019-04-06 06:40:00,Complete
+46,Equities_Daily,SettlementStats,2019-04-06 06:40:00,2019-04-06 06:50:00,Complete
 46,Equities_Daily,Ledger,2019-04-06 06:50:00,2019-04-06 07:00:00,Complete
 47,Equities_Monthly,PriceBand Changes,2019-04-06 07:00:00,2019-04-06 07:10:00,Disabled
 47,Equities_Monthly,Reconciliation,2019-04-06 07:10:00,2019-04-06 07:20:00,Failure
@@ -280,75 +280,555 @@
 47,Equities_Monthly,BlockDeals,2019-04-06 07:30:00,2019-04-06 07:40:00,Disabled
 47,Equities_Monthly,SettlementStats,2019-04-06 07:40:00,2019-04-06 07:50:00,Failure
 47,Equities_Monthly,Ledger,2019-04-06 07:50:00,2019-04-06 08:00:00,Failure
-48,Equities_Incremental,PriceBand Changes,2019-04-06 08:00:00,2019-04-06 08:10:00,Failure
+48,Equities_Incremental,PriceBand Changes,2019-04-06 08:00:00,2019-04-06 08:10:00,Disabled
 48,Equities_Incremental,Reconciliation,2019-04-06 08:10:00,2019-04-06 08:20:00,Complete
-48,Equities_Incremental,BhavCopy,2019-04-06 08:20:00,2019-04-06 08:30:00,Disabled
+48,Equities_Incremental,BhavCopy,2019-04-06 08:20:00,2019-04-06 08:30:00,Complete
 48,Equities_Incremental,BlockDeals,2019-04-06 08:30:00,2019-04-06 08:40:00,Complete
 48,Equities_Incremental,SettlementStats,2019-04-06 08:40:00,2019-04-06 08:50:00,Complete
 48,Equities_Incremental,Ledger,2019-04-06 08:50:00,2019-04-06 09:00:00,Complete
 49,Equities_PostClose,PriceBand Changes,2019-04-06 09:00:00,2019-04-06 09:10:00,Failure
 49,Equities_PostClose,Reconciliation,2019-04-06 09:10:00,2019-04-06 09:20:00,Failure
 49,Equities_PostClose,BhavCopy,2019-04-06 09:20:00,2019-04-06 09:30:00,Complete
-49,Equities_PostClose,BlockDeals,2019-04-06 09:30:00,2019-04-06 09:40:00,Failure
-49,Equities_PostClose,SettlementStats,2019-04-06 09:40:00,2019-04-06 09:50:00,Complete
-49,Equities_PostClose,Ledger,2019-04-06 09:50:00,2019-04-06 10:00:00,Failure
-50,Equities_Nightly,PriceBand Changes,2019-04-06 10:00:00,2019-04-06 10:10:00,Complete
-50,Equities_Nightly,Reconciliation,2019-04-06 10:10:00,2019-04-06 10:20:00,Complete
+49,Equities_PostClose,BlockDeals,2019-04-06 09:30:00,2019-04-06 09:40:00,Disabled
+49,Equities_PostClose,SettlementStats,2019-04-06 09:40:00,2019-04-06 09:50:00,Failure
+49,Equities_PostClose,Ledger,2019-04-06 09:50:00,2019-04-06 10:00:00,Disabled
+50,Equities_Nightly,PriceBand Changes,2019-04-06 10:00:00,2019-04-06 10:10:00,Failure
+50,Equities_Nightly,Reconciliation,2019-04-06 10:10:00,2019-04-06 10:20:00,Failure
 50,Equities_Nightly,BhavCopy,2019-04-06 10:20:00,2019-04-06 10:30:00,Complete
-50,Equities_Nightly,BlockDeals,2019-04-06 10:30:00,2019-04-06 10:40:00,Complete
-50,Equities_Nightly,SettlementStats,2019-04-06 10:40:00,2019-04-06 10:50:00,Failure
-50,Equities_Nightly,Ledger,2019-04-06 10:50:00,2019-04-06 11:00:00,Disabled
-51,Equities_Daily,PriceBand Changes,2019-04-06 11:00:00,2019-04-06 11:10:00,Complete
+50,Equities_Nightly,BlockDeals,2019-04-06 10:30:00,2019-04-06 10:40:00,Disabled
+50,Equities_Nightly,SettlementStats,2019-04-06 10:40:00,2019-04-06 10:50:00,Complete
+50,Equities_Nightly,Ledger,2019-04-06 10:50:00,2019-04-06 11:00:00,Complete
+51,Equities_Daily,PriceBand Changes,2019-04-06 11:00:00,2019-04-06 11:10:00,Disabled
 51,Equities_Daily,Reconciliation,2019-04-06 11:10:00,2019-04-06 11:20:00,Failure
-51,Equities_Daily,BhavCopy,2019-04-06 11:20:00,2019-04-06 11:30:00,Disabled
-51,Equities_Daily,BlockDeals,2019-04-06 11:30:00,2019-04-06 11:40:00,Failure
-51,Equities_Daily,SettlementStats,2019-04-06 11:40:00,2019-04-06 11:50:00,Failure
-51,Equities_Daily,Ledger,2019-04-06 11:50:00,2019-04-06 12:00:00,Disabled
-52,Equities_Monthly,PriceBand Changes,2019-04-06 12:00:00,2019-04-06 12:10:00,Disabled
+51,Equities_Daily,BhavCopy,2019-04-06 11:20:00,2019-04-06 11:30:00,Failure
+51,Equities_Daily,BlockDeals,2019-04-06 11:30:00,2019-04-06 11:40:00,Complete
+51,Equities_Daily,SettlementStats,2019-04-06 11:40:00,2019-04-06 11:50:00,Disabled
+51,Equities_Daily,Ledger,2019-04-06 11:50:00,2019-04-06 12:00:00,Complete
+52,Equities_Monthly,PriceBand Changes,2019-04-06 12:00:00,2019-04-06 12:10:00,Complete
 52,Equities_Monthly,Reconciliation,2019-04-06 12:10:00,2019-04-06 12:20:00,Complete
-52,Equities_Monthly,BhavCopy,2019-04-06 12:20:00,2019-04-06 12:30:00,Failure
+52,Equities_Monthly,BhavCopy,2019-04-06 12:20:00,2019-04-06 12:30:00,Disabled
 52,Equities_Monthly,BlockDeals,2019-04-06 12:30:00,2019-04-06 12:40:00,Complete
-52,Equities_Monthly,SettlementStats,2019-04-06 12:40:00,2019-04-06 12:50:00,Disabled
-52,Equities_Monthly,Ledger,2019-04-06 12:50:00,2019-04-06 13:00:00,Complete
-53,Equities_Incremental,PriceBand Changes,2019-04-06 13:00:00,2019-04-06 13:10:00,Failure
-53,Equities_Incremental,Reconciliation,2019-04-06 13:10:00,2019-04-06 13:20:00,Disabled
-53,Equities_Incremental,BhavCopy,2019-04-06 13:20:00,2019-04-06 13:30:00,Complete
-53,Equities_Incremental,BlockDeals,2019-04-06 13:30:00,2019-04-06 13:40:00,Complete
-53,Equities_Incremental,SettlementStats,2019-04-06 13:40:00,2019-04-06 13:50:00,Complete
+52,Equities_Monthly,SettlementStats,2019-04-06 12:40:00,2019-04-06 12:50:00,Complete
+52,Equities_Monthly,Ledger,2019-04-06 12:50:00,2019-04-06 13:00:00,Failure
+53,Equities_Incremental,PriceBand Changes,2019-04-06 13:00:00,2019-04-06 13:10:00,Disabled
+53,Equities_Incremental,Reconciliation,2019-04-06 13:10:00,2019-04-06 13:20:00,Failure
+53,Equities_Incremental,BhavCopy,2019-04-06 13:20:00,2019-04-06 13:30:00,Failure
+53,Equities_Incremental,BlockDeals,2019-04-06 13:30:00,2019-04-06 13:40:00,Disabled
+53,Equities_Incremental,SettlementStats,2019-04-06 13:40:00,2019-04-06 13:50:00,Failure
 53,Equities_Incremental,Ledger,2019-04-06 13:50:00,2019-04-06 14:00:00,Disabled
 54,Equities_PostClose,PriceBand Changes,2019-04-06 14:00:00,2019-04-06 14:10:00,Disabled
-54,Equities_PostClose,Reconciliation,2019-04-06 14:10:00,2019-04-06 14:20:00,Failure
+54,Equities_PostClose,Reconciliation,2019-04-06 14:10:00,2019-04-06 14:20:00,Complete
 54,Equities_PostClose,BhavCopy,2019-04-06 14:20:00,2019-04-06 14:30:00,Failure
-54,Equities_PostClose,BlockDeals,2019-04-06 14:30:00,2019-04-06 14:40:00,Failure
-54,Equities_PostClose,SettlementStats,2019-04-06 14:40:00,2019-04-06 14:50:00,Failure
-54,Equities_PostClose,Ledger,2019-04-06 14:50:00,2019-04-06 15:00:00,Disabled
-55,Equities_Nightly,PriceBand Changes,2019-04-06 15:00:00,2019-04-06 15:10:00,Failure
-55,Equities_Nightly,Reconciliation,2019-04-06 15:10:00,2019-04-06 15:20:00,Complete
-55,Equities_Nightly,BhavCopy,2019-04-06 15:20:00,2019-04-06 15:30:00,Complete
-55,Equities_Nightly,BlockDeals,2019-04-06 15:30:00,2019-04-06 15:40:00,Disabled
+54,Equities_PostClose,BlockDeals,2019-04-06 14:30:00,2019-04-06 14:40:00,Disabled
+54,Equities_PostClose,SettlementStats,2019-04-06 14:40:00,2019-04-06 14:50:00,Disabled
+54,Equities_PostClose,Ledger,2019-04-06 14:50:00,2019-04-06 15:00:00,Failure
+55,Equities_Nightly,PriceBand Changes,2019-04-06 15:00:00,2019-04-06 15:10:00,Complete
+55,Equities_Nightly,Reconciliation,2019-04-06 15:10:00,2019-04-06 15:20:00,Failure
+55,Equities_Nightly,BhavCopy,2019-04-06 15:20:00,2019-04-06 15:30:00,Failure
+55,Equities_Nightly,BlockDeals,2019-04-06 15:30:00,2019-04-06 15:40:00,Failure
 55,Equities_Nightly,SettlementStats,2019-04-06 15:40:00,2019-04-06 15:50:00,Failure
 55,Equities_Nightly,Ledger,2019-04-06 15:50:00,2019-04-06 16:00:00,Complete
-56,Equities_Daily,PriceBand Changes,2019-04-06 16:00:00,2019-04-06 16:10:00,Failure
-56,Equities_Daily,Reconciliation,2019-04-06 16:10:00,2019-04-06 16:20:00,Complete
-56,Equities_Daily,BhavCopy,2019-04-06 16:20:00,2019-04-06 16:30:00,Failure
+56,Equities_Daily,PriceBand Changes,2019-04-06 16:00:00,2019-04-06 16:10:00,Disabled
+56,Equities_Daily,Reconciliation,2019-04-06 16:10:00,2019-04-06 16:20:00,Failure
+56,Equities_Daily,BhavCopy,2019-04-06 16:20:00,2019-04-06 16:30:00,Disabled
 56,Equities_Daily,BlockDeals,2019-04-06 16:30:00,2019-04-06 16:40:00,Complete
-56,Equities_Daily,SettlementStats,2019-04-06 16:40:00,2019-04-06 16:50:00,Failure
+56,Equities_Daily,SettlementStats,2019-04-06 16:40:00,2019-04-06 16:50:00,Disabled
 56,Equities_Daily,Ledger,2019-04-06 16:50:00,2019-04-06 17:00:00,Failure
-57,Equities_Monthly,PriceBand Changes,2019-04-06 17:00:00,2019-04-06 17:10:00,Failure
+57,Equities_Monthly,PriceBand Changes,2019-04-06 17:00:00,2019-04-06 17:10:00,Complete
 57,Equities_Monthly,Reconciliation,2019-04-06 17:10:00,2019-04-06 17:20:00,Complete
-57,Equities_Monthly,BhavCopy,2019-04-06 17:20:00,2019-04-06 17:30:00,Complete
-57,Equities_Monthly,BlockDeals,2019-04-06 17:30:00,2019-04-06 17:40:00,Failure
-57,Equities_Monthly,SettlementStats,2019-04-06 17:40:00,2019-04-06 17:50:00,Failure
-57,Equities_Monthly,Ledger,2019-04-06 17:50:00,2019-04-06 18:00:00,Disabled
+57,Equities_Monthly,BhavCopy,2019-04-06 17:20:00,2019-04-06 17:30:00,Disabled
+57,Equities_Monthly,BlockDeals,2019-04-06 17:30:00,2019-04-06 17:40:00,Complete
+57,Equities_Monthly,SettlementStats,2019-04-06 17:40:00,2019-04-06 17:50:00,Complete
+57,Equities_Monthly,Ledger,2019-04-06 17:50:00,2019-04-06 18:00:00,Complete
 58,Equities_Incremental,PriceBand Changes,2019-04-06 18:00:00,2019-04-06 18:10:00,Failure
-58,Equities_Incremental,Reconciliation,2019-04-06 18:10:00,2019-04-06 18:20:00,Complete
-58,Equities_Incremental,BhavCopy,2019-04-06 18:20:00,2019-04-06 18:30:00,Disabled
-58,Equities_Incremental,BlockDeals,2019-04-06 18:30:00,2019-04-06 18:40:00,Failure
+58,Equities_Incremental,Reconciliation,2019-04-06 18:10:00,2019-04-06 18:20:00,Disabled
+58,Equities_Incremental,BhavCopy,2019-04-06 18:20:00,2019-04-06 18:30:00,Complete
+58,Equities_Incremental,BlockDeals,2019-04-06 18:30:00,2019-04-06 18:40:00,Disabled
 58,Equities_Incremental,SettlementStats,2019-04-06 18:40:00,2019-04-06 18:50:00,Complete
-58,Equities_Incremental,Ledger,2019-04-06 18:50:00,2019-04-06 19:00:00,Failure
-59,Equities_PostClose,PriceBand Changes,2019-04-06 19:00:00,2019-04-06 19:10:00,Failure
-59,Equities_PostClose,Reconciliation,2019-04-06 19:10:00,2019-04-06 19:20:00,Complete
+58,Equities_Incremental,Ledger,2019-04-06 18:50:00,2019-04-06 19:00:00,Complete
+59,Equities_PostClose,PriceBand Changes,2019-04-06 19:00:00,2019-04-06 19:10:00,Disabled
+59,Equities_PostClose,Reconciliation,2019-04-06 19:10:00,2019-04-06 19:20:00,Failure
 59,Equities_PostClose,BhavCopy,2019-04-06 19:20:00,2019-04-06 19:30:00,Failure
 59,Equities_PostClose,BlockDeals,2019-04-06 19:30:00,2019-04-06 19:40:00,Complete
 59,Equities_PostClose,SettlementStats,2019-04-06 19:40:00,2019-04-06 19:50:00,Complete
-59,Equities_PostClose,Ledger,2019-04-06 19:50:00,2019-04-06 20:00:00,Disabled
+59,Equities_PostClose,Ledger,2019-04-06 19:50:00,2019-04-06 20:00:00,Complete
+60,Equities_Nightly,PriceBand Changes,2019-04-06 20:00:00,2019-04-06 20:10:00,Failure
+60,Equities_Nightly,Reconciliation,2019-04-06 20:10:00,2019-04-06 20:20:00,Disabled
+60,Equities_Nightly,BhavCopy,2019-04-06 20:20:00,2019-04-06 20:30:00,Disabled
+60,Equities_Nightly,BlockDeals,2019-04-06 20:30:00,2019-04-06 20:40:00,Failure
+60,Equities_Nightly,SettlementStats,2019-04-06 20:40:00,2019-04-06 20:50:00,Disabled
+60,Equities_Nightly,Ledger,2019-04-06 20:50:00,2019-04-06 21:00:00,Failure
+61,Equities_Daily,PriceBand Changes,2019-04-07 01:00:00,2019-04-07 01:10:00,Failure
+61,Equities_Daily,Reconciliation,2019-04-07 01:10:00,2019-04-07 01:20:00,Disabled
+61,Equities_Daily,BhavCopy,2019-04-07 01:20:00,2019-04-07 01:30:00,Disabled
+61,Equities_Daily,BlockDeals,2019-04-07 01:30:00,2019-04-07 01:40:00,Disabled
+61,Equities_Daily,SettlementStats,2019-04-07 01:40:00,2019-04-07 01:50:00,Disabled
+61,Equities_Daily,Ledger,2019-04-07 01:50:00,2019-04-07 02:00:00,Complete
+62,Equities_Monthly,PriceBand Changes,2019-04-07 02:00:00,2019-04-07 02:10:00,Complete
+62,Equities_Monthly,Reconciliation,2019-04-07 02:10:00,2019-04-07 02:20:00,Disabled
+62,Equities_Monthly,BhavCopy,2019-04-07 02:20:00,2019-04-07 02:30:00,Failure
+62,Equities_Monthly,BlockDeals,2019-04-07 02:30:00,2019-04-07 02:40:00,Failure
+62,Equities_Monthly,SettlementStats,2019-04-07 02:40:00,2019-04-07 02:50:00,Disabled
+62,Equities_Monthly,Ledger,2019-04-07 02:50:00,2019-04-07 03:00:00,Failure
+63,Equities_Incremental,PriceBand Changes,2019-04-07 03:00:00,2019-04-07 03:10:00,Complete
+63,Equities_Incremental,Reconciliation,2019-04-07 03:10:00,2019-04-07 03:20:00,Complete
+63,Equities_Incremental,BhavCopy,2019-04-07 03:20:00,2019-04-07 03:30:00,Complete
+63,Equities_Incremental,BlockDeals,2019-04-07 03:30:00,2019-04-07 03:40:00,Failure
+63,Equities_Incremental,SettlementStats,2019-04-07 03:40:00,2019-04-07 03:50:00,Failure
+63,Equities_Incremental,Ledger,2019-04-07 03:50:00,2019-04-07 04:00:00,Failure
+64,Equities_PostClose,PriceBand Changes,2019-04-07 04:00:00,2019-04-07 04:10:00,Disabled
+64,Equities_PostClose,Reconciliation,2019-04-07 04:10:00,2019-04-07 04:20:00,Failure
+64,Equities_PostClose,BhavCopy,2019-04-07 04:20:00,2019-04-07 04:30:00,Failure
+64,Equities_PostClose,BlockDeals,2019-04-07 04:30:00,2019-04-07 04:40:00,Failure
+64,Equities_PostClose,SettlementStats,2019-04-07 04:40:00,2019-04-07 04:50:00,Disabled
+64,Equities_PostClose,Ledger,2019-04-07 04:50:00,2019-04-07 05:00:00,Failure
+65,Equities_Nightly,PriceBand Changes,2019-04-07 05:00:00,2019-04-07 05:10:00,Failure
+65,Equities_Nightly,Reconciliation,2019-04-07 05:10:00,2019-04-07 05:20:00,Failure
+65,Equities_Nightly,BhavCopy,2019-04-07 05:20:00,2019-04-07 05:30:00,Failure
+65,Equities_Nightly,BlockDeals,2019-04-07 05:30:00,2019-04-07 05:40:00,Failure
+65,Equities_Nightly,SettlementStats,2019-04-07 05:40:00,2019-04-07 05:50:00,Complete
+65,Equities_Nightly,Ledger,2019-04-07 05:50:00,2019-04-07 06:00:00,Disabled
+66,Equities_Daily,PriceBand Changes,2019-04-07 06:00:00,2019-04-07 06:10:00,Complete
+66,Equities_Daily,Reconciliation,2019-04-07 06:10:00,2019-04-07 06:20:00,Complete
+66,Equities_Daily,BhavCopy,2019-04-07 06:20:00,2019-04-07 06:30:00,Complete
+66,Equities_Daily,BlockDeals,2019-04-07 06:30:00,2019-04-07 06:40:00,Disabled
+66,Equities_Daily,SettlementStats,2019-04-07 06:40:00,2019-04-07 06:50:00,Failure
+66,Equities_Daily,Ledger,2019-04-07 06:50:00,2019-04-07 07:00:00,Failure
+67,Equities_Monthly,PriceBand Changes,2019-04-07 07:00:00,2019-04-07 07:10:00,Failure
+67,Equities_Monthly,Reconciliation,2019-04-07 07:10:00,2019-04-07 07:20:00,Disabled
+67,Equities_Monthly,BhavCopy,2019-04-07 07:20:00,2019-04-07 07:30:00,Failure
+67,Equities_Monthly,BlockDeals,2019-04-07 07:30:00,2019-04-07 07:40:00,Complete
+67,Equities_Monthly,SettlementStats,2019-04-07 07:40:00,2019-04-07 07:50:00,Complete
+67,Equities_Monthly,Ledger,2019-04-07 07:50:00,2019-04-07 08:00:00,Disabled
+68,Equities_Incremental,PriceBand Changes,2019-04-07 08:00:00,2019-04-07 08:10:00,Disabled
+68,Equities_Incremental,Reconciliation,2019-04-07 08:10:00,2019-04-07 08:20:00,Failure
+68,Equities_Incremental,BhavCopy,2019-04-07 08:20:00,2019-04-07 08:30:00,Complete
+68,Equities_Incremental,BlockDeals,2019-04-07 08:30:00,2019-04-07 08:40:00,Disabled
+68,Equities_Incremental,SettlementStats,2019-04-07 08:40:00,2019-04-07 08:50:00,Disabled
+68,Equities_Incremental,Ledger,2019-04-07 08:50:00,2019-04-07 09:00:00,Disabled
+69,Equities_PostClose,PriceBand Changes,2019-04-07 09:00:00,2019-04-07 09:10:00,Disabled
+69,Equities_PostClose,Reconciliation,2019-04-07 09:10:00,2019-04-07 09:20:00,Failure
+69,Equities_PostClose,BhavCopy,2019-04-07 09:20:00,2019-04-07 09:30:00,Failure
+69,Equities_PostClose,BlockDeals,2019-04-07 09:30:00,2019-04-07 09:40:00,Failure
+69,Equities_PostClose,SettlementStats,2019-04-07 09:40:00,2019-04-07 09:50:00,Complete
+69,Equities_PostClose,Ledger,2019-04-07 09:50:00,2019-04-07 10:00:00,Failure
+70,Equities_Nightly,PriceBand Changes,2019-04-07 10:00:00,2019-04-07 10:10:00,Failure
+70,Equities_Nightly,Reconciliation,2019-04-07 10:10:00,2019-04-07 10:20:00,Failure
+70,Equities_Nightly,BhavCopy,2019-04-07 10:20:00,2019-04-07 10:30:00,Failure
+70,Equities_Nightly,BlockDeals,2019-04-07 10:30:00,2019-04-07 10:40:00,Disabled
+70,Equities_Nightly,SettlementStats,2019-04-07 10:40:00,2019-04-07 10:50:00,Complete
+70,Equities_Nightly,Ledger,2019-04-07 10:50:00,2019-04-07 11:00:00,Complete
+71,Equities_Daily,PriceBand Changes,2019-04-07 11:00:00,2019-04-07 11:10:00,Complete
+71,Equities_Daily,Reconciliation,2019-04-07 11:10:00,2019-04-07 11:20:00,Failure
+71,Equities_Daily,BhavCopy,2019-04-07 11:20:00,2019-04-07 11:30:00,Failure
+71,Equities_Daily,BlockDeals,2019-04-07 11:30:00,2019-04-07 11:40:00,Complete
+71,Equities_Daily,SettlementStats,2019-04-07 11:40:00,2019-04-07 11:50:00,Disabled
+71,Equities_Daily,Ledger,2019-04-07 11:50:00,2019-04-07 12:00:00,Failure
+72,Equities_Monthly,PriceBand Changes,2019-04-07 12:00:00,2019-04-07 12:10:00,Failure
+72,Equities_Monthly,Reconciliation,2019-04-07 12:10:00,2019-04-07 12:20:00,Failure
+72,Equities_Monthly,BhavCopy,2019-04-07 12:20:00,2019-04-07 12:30:00,Failure
+72,Equities_Monthly,BlockDeals,2019-04-07 12:30:00,2019-04-07 12:40:00,Disabled
+72,Equities_Monthly,SettlementStats,2019-04-07 12:40:00,2019-04-07 12:50:00,Complete
+72,Equities_Monthly,Ledger,2019-04-07 12:50:00,2019-04-07 13:00:00,Complete
+73,Equities_Incremental,PriceBand Changes,2019-04-07 13:00:00,2019-04-07 13:10:00,Complete
+73,Equities_Incremental,Reconciliation,2019-04-07 13:10:00,2019-04-07 13:20:00,Disabled
+73,Equities_Incremental,BhavCopy,2019-04-07 13:20:00,2019-04-07 13:30:00,Complete
+73,Equities_Incremental,BlockDeals,2019-04-07 13:30:00,2019-04-07 13:40:00,Failure
+73,Equities_Incremental,SettlementStats,2019-04-07 13:40:00,2019-04-07 13:50:00,Disabled
+73,Equities_Incremental,Ledger,2019-04-07 13:50:00,2019-04-07 14:00:00,Complete
+74,Equities_PostClose,PriceBand Changes,2019-04-07 14:00:00,2019-04-07 14:10:00,Failure
+74,Equities_PostClose,Reconciliation,2019-04-07 14:10:00,2019-04-07 14:20:00,Complete
+74,Equities_PostClose,BhavCopy,2019-04-07 14:20:00,2019-04-07 14:30:00,Failure
+74,Equities_PostClose,BlockDeals,2019-04-07 14:30:00,2019-04-07 14:40:00,Complete
+74,Equities_PostClose,SettlementStats,2019-04-07 14:40:00,2019-04-07 14:50:00,Failure
+74,Equities_PostClose,Ledger,2019-04-07 14:50:00,2019-04-07 15:00:00,Disabled
+75,Equities_Nightly,PriceBand Changes,2019-04-07 15:00:00,2019-04-07 15:10:00,Complete
+75,Equities_Nightly,Reconciliation,2019-04-07 15:10:00,2019-04-07 15:20:00,Disabled
+75,Equities_Nightly,BhavCopy,2019-04-07 15:20:00,2019-04-07 15:30:00,Disabled
+75,Equities_Nightly,BlockDeals,2019-04-07 15:30:00,2019-04-07 15:40:00,Disabled
+75,Equities_Nightly,SettlementStats,2019-04-07 15:40:00,2019-04-07 15:50:00,Complete
+75,Equities_Nightly,Ledger,2019-04-07 15:50:00,2019-04-07 16:00:00,Disabled
+76,Equities_Daily,PriceBand Changes,2019-04-07 16:00:00,2019-04-07 16:10:00,Disabled
+76,Equities_Daily,Reconciliation,2019-04-07 16:10:00,2019-04-07 16:20:00,Complete
+76,Equities_Daily,BhavCopy,2019-04-07 16:20:00,2019-04-07 16:30:00,Complete
+76,Equities_Daily,BlockDeals,2019-04-07 16:30:00,2019-04-07 16:40:00,Disabled
+76,Equities_Daily,SettlementStats,2019-04-07 16:40:00,2019-04-07 16:50:00,Disabled
+76,Equities_Daily,Ledger,2019-04-07 16:50:00,2019-04-07 17:00:00,Complete
+77,Equities_Monthly,PriceBand Changes,2019-04-07 17:00:00,2019-04-07 17:10:00,Complete
+77,Equities_Monthly,Reconciliation,2019-04-07 17:10:00,2019-04-07 17:20:00,Failure
+77,Equities_Monthly,BhavCopy,2019-04-07 17:20:00,2019-04-07 17:30:00,Failure
+77,Equities_Monthly,BlockDeals,2019-04-07 17:30:00,2019-04-07 17:40:00,Disabled
+77,Equities_Monthly,SettlementStats,2019-04-07 17:40:00,2019-04-07 17:50:00,Disabled
+77,Equities_Monthly,Ledger,2019-04-07 17:50:00,2019-04-07 18:00:00,Disabled
+78,Equities_Incremental,PriceBand Changes,2019-04-07 18:00:00,2019-04-07 18:10:00,Complete
+78,Equities_Incremental,Reconciliation,2019-04-07 18:10:00,2019-04-07 18:20:00,Disabled
+78,Equities_Incremental,BhavCopy,2019-04-07 18:20:00,2019-04-07 18:30:00,Failure
+78,Equities_Incremental,BlockDeals,2019-04-07 18:30:00,2019-04-07 18:40:00,Failure
+78,Equities_Incremental,SettlementStats,2019-04-07 18:40:00,2019-04-07 18:50:00,Failure
+78,Equities_Incremental,Ledger,2019-04-07 18:50:00,2019-04-07 19:00:00,Complete
+79,Equities_PostClose,PriceBand Changes,2019-04-07 19:00:00,2019-04-07 19:10:00,Disabled
+79,Equities_PostClose,Reconciliation,2019-04-07 19:10:00,2019-04-07 19:20:00,Failure
+79,Equities_PostClose,BhavCopy,2019-04-07 19:20:00,2019-04-07 19:30:00,Failure
+79,Equities_PostClose,BlockDeals,2019-04-07 19:30:00,2019-04-07 19:40:00,Complete
+79,Equities_PostClose,SettlementStats,2019-04-07 19:40:00,2019-04-07 19:50:00,Failure
+79,Equities_PostClose,Ledger,2019-04-07 19:50:00,2019-04-07 20:00:00,Complete
+80,Equities_Nightly,PriceBand Changes,2019-04-07 20:00:00,2019-04-07 20:10:00,Failure
+80,Equities_Nightly,Reconciliation,2019-04-07 20:10:00,2019-04-07 20:20:00,Disabled
+80,Equities_Nightly,BhavCopy,2019-04-07 20:20:00,2019-04-07 20:30:00,Disabled
+80,Equities_Nightly,BlockDeals,2019-04-07 20:30:00,2019-04-07 20:40:00,Complete
+80,Equities_Nightly,SettlementStats,2019-04-07 20:40:00,2019-04-07 20:50:00,Complete
+80,Equities_Nightly,Ledger,2019-04-07 20:50:00,2019-04-07 21:00:00,Failure
+81,Equities_Daily,PriceBand Changes,2019-04-08 01:00:00,2019-04-08 01:10:00,Complete
+81,Equities_Daily,Reconciliation,2019-04-08 01:10:00,2019-04-08 01:20:00,Complete
+81,Equities_Daily,BhavCopy,2019-04-08 01:20:00,2019-04-08 01:30:00,Failure
+81,Equities_Daily,BlockDeals,2019-04-08 01:30:00,2019-04-08 01:40:00,Complete
+81,Equities_Daily,SettlementStats,2019-04-08 01:40:00,2019-04-08 01:50:00,Failure
+81,Equities_Daily,Ledger,2019-04-08 01:50:00,2019-04-08 02:00:00,Complete
+82,Equities_Monthly,PriceBand Changes,2019-04-08 02:00:00,2019-04-08 02:10:00,Complete
+82,Equities_Monthly,Reconciliation,2019-04-08 02:10:00,2019-04-08 02:20:00,Failure
+82,Equities_Monthly,BhavCopy,2019-04-08 02:20:00,2019-04-08 02:30:00,Complete
+82,Equities_Monthly,BlockDeals,2019-04-08 02:30:00,2019-04-08 02:40:00,Disabled
+82,Equities_Monthly,SettlementStats,2019-04-08 02:40:00,2019-04-08 02:50:00,Disabled
+82,Equities_Monthly,Ledger,2019-04-08 02:50:00,2019-04-08 03:00:00,Complete
+83,Equities_Incremental,PriceBand Changes,2019-04-08 03:00:00,2019-04-08 03:10:00,Complete
+83,Equities_Incremental,Reconciliation,2019-04-08 03:10:00,2019-04-08 03:20:00,Failure
+83,Equities_Incremental,BhavCopy,2019-04-08 03:20:00,2019-04-08 03:30:00,Complete
+83,Equities_Incremental,BlockDeals,2019-04-08 03:30:00,2019-04-08 03:40:00,Disabled
+83,Equities_Incremental,SettlementStats,2019-04-08 03:40:00,2019-04-08 03:50:00,Failure
+83,Equities_Incremental,Ledger,2019-04-08 03:50:00,2019-04-08 04:00:00,Complete
+84,Equities_PostClose,PriceBand Changes,2019-04-08 04:00:00,2019-04-08 04:10:00,Disabled
+84,Equities_PostClose,Reconciliation,2019-04-08 04:10:00,2019-04-08 04:20:00,Failure
+84,Equities_PostClose,BhavCopy,2019-04-08 04:20:00,2019-04-08 04:30:00,Failure
+84,Equities_PostClose,BlockDeals,2019-04-08 04:30:00,2019-04-08 04:40:00,Complete
+84,Equities_PostClose,SettlementStats,2019-04-08 04:40:00,2019-04-08 04:50:00,Complete
+84,Equities_PostClose,Ledger,2019-04-08 04:50:00,2019-04-08 05:00:00,Disabled
+85,Equities_Nightly,PriceBand Changes,2019-04-08 05:00:00,2019-04-08 05:10:00,Disabled
+85,Equities_Nightly,Reconciliation,2019-04-08 05:10:00,2019-04-08 05:20:00,Failure
+85,Equities_Nightly,BhavCopy,2019-04-08 05:20:00,2019-04-08 05:30:00,Complete
+85,Equities_Nightly,BlockDeals,2019-04-08 05:30:00,2019-04-08 05:40:00,Failure
+85,Equities_Nightly,SettlementStats,2019-04-08 05:40:00,2019-04-08 05:50:00,Disabled
+85,Equities_Nightly,Ledger,2019-04-08 05:50:00,2019-04-08 06:00:00,Failure
+86,Equities_Daily,PriceBand Changes,2019-04-08 06:00:00,2019-04-08 06:10:00,Complete
+86,Equities_Daily,Reconciliation,2019-04-08 06:10:00,2019-04-08 06:20:00,Disabled
+86,Equities_Daily,BhavCopy,2019-04-08 06:20:00,2019-04-08 06:30:00,Complete
+86,Equities_Daily,BlockDeals,2019-04-08 06:30:00,2019-04-08 06:40:00,Disabled
+86,Equities_Daily,SettlementStats,2019-04-08 06:40:00,2019-04-08 06:50:00,Disabled
+86,Equities_Daily,Ledger,2019-04-08 06:50:00,2019-04-08 07:00:00,Failure
+87,Equities_Monthly,PriceBand Changes,2019-04-08 07:00:00,2019-04-08 07:10:00,Failure
+87,Equities_Monthly,Reconciliation,2019-04-08 07:10:00,2019-04-08 07:20:00,Failure
+87,Equities_Monthly,BhavCopy,2019-04-08 07:20:00,2019-04-08 07:30:00,Complete
+87,Equities_Monthly,BlockDeals,2019-04-08 07:30:00,2019-04-08 07:40:00,Complete
+87,Equities_Monthly,SettlementStats,2019-04-08 07:40:00,2019-04-08 07:50:00,Complete
+87,Equities_Monthly,Ledger,2019-04-08 07:50:00,2019-04-08 08:00:00,Failure
+88,Equities_Incremental,PriceBand Changes,2019-04-08 08:00:00,2019-04-08 08:10:00,Complete
+88,Equities_Incremental,Reconciliation,2019-04-08 08:10:00,2019-04-08 08:20:00,Failure
+88,Equities_Incremental,BhavCopy,2019-04-08 08:20:00,2019-04-08 08:30:00,Disabled
+88,Equities_Incremental,BlockDeals,2019-04-08 08:30:00,2019-04-08 08:40:00,Disabled
+88,Equities_Incremental,SettlementStats,2019-04-08 08:40:00,2019-04-08 08:50:00,Complete
+88,Equities_Incremental,Ledger,2019-04-08 08:50:00,2019-04-08 09:00:00,Failure
+89,Equities_PostClose,PriceBand Changes,2019-04-08 09:00:00,2019-04-08 09:10:00,Disabled
+89,Equities_PostClose,Reconciliation,2019-04-08 09:10:00,2019-04-08 09:20:00,Disabled
+89,Equities_PostClose,BhavCopy,2019-04-08 09:20:00,2019-04-08 09:30:00,Disabled
+89,Equities_PostClose,BlockDeals,2019-04-08 09:30:00,2019-04-08 09:40:00,Complete
+89,Equities_PostClose,SettlementStats,2019-04-08 09:40:00,2019-04-08 09:50:00,Complete
+89,Equities_PostClose,Ledger,2019-04-08 09:50:00,2019-04-08 10:00:00,Complete
+90,Equities_Nightly,PriceBand Changes,2019-04-08 10:00:00,2019-04-08 10:10:00,Complete
+90,Equities_Nightly,Reconciliation,2019-04-08 10:10:00,2019-04-08 10:20:00,Failure
+90,Equities_Nightly,BhavCopy,2019-04-08 10:20:00,2019-04-08 10:30:00,Disabled
+90,Equities_Nightly,BlockDeals,2019-04-08 10:30:00,2019-04-08 10:40:00,Disabled
+90,Equities_Nightly,SettlementStats,2019-04-08 10:40:00,2019-04-08 10:50:00,Complete
+90,Equities_Nightly,Ledger,2019-04-08 10:50:00,2019-04-08 11:00:00,Failure
+91,Equities_Daily,PriceBand Changes,2019-04-08 11:00:00,2019-04-08 11:10:00,Complete
+91,Equities_Daily,Reconciliation,2019-04-08 11:10:00,2019-04-08 11:20:00,Disabled
+91,Equities_Daily,BhavCopy,2019-04-08 11:20:00,2019-04-08 11:30:00,Failure
+91,Equities_Daily,BlockDeals,2019-04-08 11:30:00,2019-04-08 11:40:00,Disabled
+91,Equities_Daily,SettlementStats,2019-04-08 11:40:00,2019-04-08 11:50:00,Complete
+91,Equities_Daily,Ledger,2019-04-08 11:50:00,2019-04-08 12:00:00,Disabled
+92,Equities_Monthly,PriceBand Changes,2019-04-08 12:00:00,2019-04-08 12:10:00,Failure
+92,Equities_Monthly,Reconciliation,2019-04-08 12:10:00,2019-04-08 12:20:00,Complete
+92,Equities_Monthly,BhavCopy,2019-04-08 12:20:00,2019-04-08 12:30:00,Complete
+92,Equities_Monthly,BlockDeals,2019-04-08 12:30:00,2019-04-08 12:40:00,Complete
+92,Equities_Monthly,SettlementStats,2019-04-08 12:40:00,2019-04-08 12:50:00,Disabled
+92,Equities_Monthly,Ledger,2019-04-08 12:50:00,2019-04-08 13:00:00,Disabled
+93,Equities_Incremental,PriceBand Changes,2019-04-08 13:00:00,2019-04-08 13:10:00,Failure
+93,Equities_Incremental,Reconciliation,2019-04-08 13:10:00,2019-04-08 13:20:00,Failure
+93,Equities_Incremental,BhavCopy,2019-04-08 13:20:00,2019-04-08 13:30:00,Failure
+93,Equities_Incremental,BlockDeals,2019-04-08 13:30:00,2019-04-08 13:40:00,Disabled
+93,Equities_Incremental,SettlementStats,2019-04-08 13:40:00,2019-04-08 13:50:00,Complete
+93,Equities_Incremental,Ledger,2019-04-08 13:50:00,2019-04-08 14:00:00,Failure
+94,Equities_PostClose,PriceBand Changes,2019-04-08 14:00:00,2019-04-08 14:10:00,Disabled
+94,Equities_PostClose,Reconciliation,2019-04-08 14:10:00,2019-04-08 14:20:00,Complete
+94,Equities_PostClose,BhavCopy,2019-04-08 14:20:00,2019-04-08 14:30:00,Failure
+94,Equities_PostClose,BlockDeals,2019-04-08 14:30:00,2019-04-08 14:40:00,Failure
+94,Equities_PostClose,SettlementStats,2019-04-08 14:40:00,2019-04-08 14:50:00,Complete
+94,Equities_PostClose,Ledger,2019-04-08 14:50:00,2019-04-08 15:00:00,Failure
+95,Equities_Nightly,PriceBand Changes,2019-04-08 15:00:00,2019-04-08 15:10:00,Failure
+95,Equities_Nightly,Reconciliation,2019-04-08 15:10:00,2019-04-08 15:20:00,Complete
+95,Equities_Nightly,BhavCopy,2019-04-08 15:20:00,2019-04-08 15:30:00,Complete
+95,Equities_Nightly,BlockDeals,2019-04-08 15:30:00,2019-04-08 15:40:00,Failure
+95,Equities_Nightly,SettlementStats,2019-04-08 15:40:00,2019-04-08 15:50:00,Disabled
+95,Equities_Nightly,Ledger,2019-04-08 15:50:00,2019-04-08 16:00:00,Disabled
+96,Equities_Daily,PriceBand Changes,2019-04-08 16:00:00,2019-04-08 16:10:00,Disabled
+96,Equities_Daily,Reconciliation,2019-04-08 16:10:00,2019-04-08 16:20:00,Disabled
+96,Equities_Daily,BhavCopy,2019-04-08 16:20:00,2019-04-08 16:30:00,Complete
+96,Equities_Daily,BlockDeals,2019-04-08 16:30:00,2019-04-08 16:40:00,Complete
+96,Equities_Daily,SettlementStats,2019-04-08 16:40:00,2019-04-08 16:50:00,Disabled
+96,Equities_Daily,Ledger,2019-04-08 16:50:00,2019-04-08 17:00:00,Disabled
+97,Equities_Monthly,PriceBand Changes,2019-04-08 17:00:00,2019-04-08 17:10:00,Disabled
+97,Equities_Monthly,Reconciliation,2019-04-08 17:10:00,2019-04-08 17:20:00,Disabled
+97,Equities_Monthly,BhavCopy,2019-04-08 17:20:00,2019-04-08 17:30:00,Failure
+97,Equities_Monthly,BlockDeals,2019-04-08 17:30:00,2019-04-08 17:40:00,Failure
+97,Equities_Monthly,SettlementStats,2019-04-08 17:40:00,2019-04-08 17:50:00,Disabled
+97,Equities_Monthly,Ledger,2019-04-08 17:50:00,2019-04-08 18:00:00,Complete
+98,Equities_Incremental,PriceBand Changes,2019-04-08 18:00:00,2019-04-08 18:10:00,Disabled
+98,Equities_Incremental,Reconciliation,2019-04-08 18:10:00,2019-04-08 18:20:00,Complete
+98,Equities_Incremental,BhavCopy,2019-04-08 18:20:00,2019-04-08 18:30:00,Disabled
+98,Equities_Incremental,BlockDeals,2019-04-08 18:30:00,2019-04-08 18:40:00,Failure
+98,Equities_Incremental,SettlementStats,2019-04-08 18:40:00,2019-04-08 18:50:00,Failure
+98,Equities_Incremental,Ledger,2019-04-08 18:50:00,2019-04-08 19:00:00,Complete
+99,Equities_PostClose,PriceBand Changes,2019-04-08 19:00:00,2019-04-08 19:10:00,Disabled
+99,Equities_PostClose,Reconciliation,2019-04-08 19:10:00,2019-04-08 19:20:00,Failure
+99,Equities_PostClose,BhavCopy,2019-04-08 19:20:00,2019-04-08 19:30:00,Complete
+99,Equities_PostClose,BlockDeals,2019-04-08 19:30:00,2019-04-08 19:40:00,Disabled
+99,Equities_PostClose,SettlementStats,2019-04-08 19:40:00,2019-04-08 19:50:00,Failure
+99,Equities_PostClose,Ledger,2019-04-08 19:50:00,2019-04-08 20:00:00,Failure
+100,Equities_Nightly,PriceBand Changes,2019-04-08 20:00:00,2019-04-08 20:10:00,Disabled
+100,Equities_Nightly,Reconciliation,2019-04-08 20:10:00,2019-04-08 20:20:00,Disabled
+100,Equities_Nightly,BhavCopy,2019-04-08 20:20:00,2019-04-08 20:30:00,Complete
+100,Equities_Nightly,BlockDeals,2019-04-08 20:30:00,2019-04-08 20:40:00,Failure
+100,Equities_Nightly,SettlementStats,2019-04-08 20:40:00,2019-04-08 20:50:00,Failure
+100,Equities_Nightly,Ledger,2019-04-08 20:50:00,2019-04-08 21:00:00,Complete
+101,Equities_Daily,PriceBand Changes,2019-04-09 01:00:00,2019-04-09 01:10:00,Disabled
+101,Equities_Daily,Reconciliation,2019-04-09 01:10:00,2019-04-09 01:20:00,Failure
+101,Equities_Daily,BhavCopy,2019-04-09 01:20:00,2019-04-09 01:30:00,Failure
+101,Equities_Daily,BlockDeals,2019-04-09 01:30:00,2019-04-09 01:40:00,Disabled
+101,Equities_Daily,SettlementStats,2019-04-09 01:40:00,2019-04-09 01:50:00,Failure
+101,Equities_Daily,Ledger,2019-04-09 01:50:00,2019-04-09 02:00:00,Failure
+102,Equities_Monthly,PriceBand Changes,2019-04-09 02:00:00,2019-04-09 02:10:00,Disabled
+102,Equities_Monthly,Reconciliation,2019-04-09 02:10:00,2019-04-09 02:20:00,Failure
+102,Equities_Monthly,BhavCopy,2019-04-09 02:20:00,2019-04-09 02:30:00,Complete
+102,Equities_Monthly,BlockDeals,2019-04-09 02:30:00,2019-04-09 02:40:00,Failure
+102,Equities_Monthly,SettlementStats,2019-04-09 02:40:00,2019-04-09 02:50:00,Disabled
+102,Equities_Monthly,Ledger,2019-04-09 02:50:00,2019-04-09 03:00:00,Complete
+103,Equities_Incremental,PriceBand Changes,2019-04-09 03:00:00,2019-04-09 03:10:00,Disabled
+103,Equities_Incremental,Reconciliation,2019-04-09 03:10:00,2019-04-09 03:20:00,Complete
+103,Equities_Incremental,BhavCopy,2019-04-09 03:20:00,2019-04-09 03:30:00,Complete
+103,Equities_Incremental,BlockDeals,2019-04-09 03:30:00,2019-04-09 03:40:00,Complete
+103,Equities_Incremental,SettlementStats,2019-04-09 03:40:00,2019-04-09 03:50:00,Disabled
+103,Equities_Incremental,Ledger,2019-04-09 03:50:00,2019-04-09 04:00:00,Failure
+104,Equities_PostClose,PriceBand Changes,2019-04-09 04:00:00,2019-04-09 04:10:00,Disabled
+104,Equities_PostClose,Reconciliation,2019-04-09 04:10:00,2019-04-09 04:20:00,Failure
+104,Equities_PostClose,BhavCopy,2019-04-09 04:20:00,2019-04-09 04:30:00,Complete
+104,Equities_PostClose,BlockDeals,2019-04-09 04:30:00,2019-04-09 04:40:00,Failure
+104,Equities_PostClose,SettlementStats,2019-04-09 04:40:00,2019-04-09 04:50:00,Complete
+104,Equities_PostClose,Ledger,2019-04-09 04:50:00,2019-04-09 05:00:00,Complete
+105,Equities_Nightly,PriceBand Changes,2019-04-09 05:00:00,2019-04-09 05:10:00,Complete
+105,Equities_Nightly,Reconciliation,2019-04-09 05:10:00,2019-04-09 05:20:00,Complete
+105,Equities_Nightly,BhavCopy,2019-04-09 05:20:00,2019-04-09 05:30:00,Failure
+105,Equities_Nightly,BlockDeals,2019-04-09 05:30:00,2019-04-09 05:40:00,Disabled
+105,Equities_Nightly,SettlementStats,2019-04-09 05:40:00,2019-04-09 05:50:00,Failure
+105,Equities_Nightly,Ledger,2019-04-09 05:50:00,2019-04-09 06:00:00,Failure
+106,Equities_Daily,PriceBand Changes,2019-04-09 06:00:00,2019-04-09 06:10:00,Complete
+106,Equities_Daily,Reconciliation,2019-04-09 06:10:00,2019-04-09 06:20:00,Complete
+106,Equities_Daily,BhavCopy,2019-04-09 06:20:00,2019-04-09 06:30:00,Disabled
+106,Equities_Daily,BlockDeals,2019-04-09 06:30:00,2019-04-09 06:40:00,Complete
+106,Equities_Daily,SettlementStats,2019-04-09 06:40:00,2019-04-09 06:50:00,Complete
+106,Equities_Daily,Ledger,2019-04-09 06:50:00,2019-04-09 07:00:00,Failure
+107,Equities_Monthly,PriceBand Changes,2019-04-09 07:00:00,2019-04-09 07:10:00,Disabled
+107,Equities_Monthly,Reconciliation,2019-04-09 07:10:00,2019-04-09 07:20:00,Disabled
+107,Equities_Monthly,BhavCopy,2019-04-09 07:20:00,2019-04-09 07:30:00,Disabled
+107,Equities_Monthly,BlockDeals,2019-04-09 07:30:00,2019-04-09 07:40:00,Disabled
+107,Equities_Monthly,SettlementStats,2019-04-09 07:40:00,2019-04-09 07:50:00,Disabled
+107,Equities_Monthly,Ledger,2019-04-09 07:50:00,2019-04-09 08:00:00,Complete
+108,Equities_Incremental,PriceBand Changes,2019-04-09 08:00:00,2019-04-09 08:10:00,Complete
+108,Equities_Incremental,Reconciliation,2019-04-09 08:10:00,2019-04-09 08:20:00,Complete
+108,Equities_Incremental,BhavCopy,2019-04-09 08:20:00,2019-04-09 08:30:00,Complete
+108,Equities_Incremental,BlockDeals,2019-04-09 08:30:00,2019-04-09 08:40:00,Complete
+108,Equities_Incremental,SettlementStats,2019-04-09 08:40:00,2019-04-09 08:50:00,Complete
+108,Equities_Incremental,Ledger,2019-04-09 08:50:00,2019-04-09 09:00:00,Disabled
+109,Equities_PostClose,PriceBand Changes,2019-04-09 09:00:00,2019-04-09 09:10:00,Failure
+109,Equities_PostClose,Reconciliation,2019-04-09 09:10:00,2019-04-09 09:20:00,Complete
+109,Equities_PostClose,BhavCopy,2019-04-09 09:20:00,2019-04-09 09:30:00,Disabled
+109,Equities_PostClose,BlockDeals,2019-04-09 09:30:00,2019-04-09 09:40:00,Complete
+109,Equities_PostClose,SettlementStats,2019-04-09 09:40:00,2019-04-09 09:50:00,Failure
+109,Equities_PostClose,Ledger,2019-04-09 09:50:00,2019-04-09 10:00:00,Failure
+110,Equities_Nightly,PriceBand Changes,2019-04-09 10:00:00,2019-04-09 10:10:00,Complete
+110,Equities_Nightly,Reconciliation,2019-04-09 10:10:00,2019-04-09 10:20:00,Failure
+110,Equities_Nightly,BhavCopy,2019-04-09 10:20:00,2019-04-09 10:30:00,Complete
+110,Equities_Nightly,BlockDeals,2019-04-09 10:30:00,2019-04-09 10:40:00,Disabled
+110,Equities_Nightly,SettlementStats,2019-04-09 10:40:00,2019-04-09 10:50:00,Disabled
+110,Equities_Nightly,Ledger,2019-04-09 10:50:00,2019-04-09 11:00:00,Failure
+111,Equities_Daily,PriceBand Changes,2019-04-09 11:00:00,2019-04-09 11:10:00,Disabled
+111,Equities_Daily,Reconciliation,2019-04-09 11:10:00,2019-04-09 11:20:00,Failure
+111,Equities_Daily,BhavCopy,2019-04-09 11:20:00,2019-04-09 11:30:00,Disabled
+111,Equities_Daily,BlockDeals,2019-04-09 11:30:00,2019-04-09 11:40:00,Failure
+111,Equities_Daily,SettlementStats,2019-04-09 11:40:00,2019-04-09 11:50:00,Complete
+111,Equities_Daily,Ledger,2019-04-09 11:50:00,2019-04-09 12:00:00,Disabled
+112,Equities_Monthly,PriceBand Changes,2019-04-09 12:00:00,2019-04-09 12:10:00,Failure
+112,Equities_Monthly,Reconciliation,2019-04-09 12:10:00,2019-04-09 12:20:00,Disabled
+112,Equities_Monthly,BhavCopy,2019-04-09 12:20:00,2019-04-09 12:30:00,Disabled
+112,Equities_Monthly,BlockDeals,2019-04-09 12:30:00,2019-04-09 12:40:00,Complete
+112,Equities_Monthly,SettlementStats,2019-04-09 12:40:00,2019-04-09 12:50:00,Failure
+112,Equities_Monthly,Ledger,2019-04-09 12:50:00,2019-04-09 13:00:00,Failure
+113,Equities_Incremental,PriceBand Changes,2019-04-09 13:00:00,2019-04-09 13:10:00,Failure
+113,Equities_Incremental,Reconciliation,2019-04-09 13:10:00,2019-04-09 13:20:00,Disabled
+113,Equities_Incremental,BhavCopy,2019-04-09 13:20:00,2019-04-09 13:30:00,Failure
+113,Equities_Incremental,BlockDeals,2019-04-09 13:30:00,2019-04-09 13:40:00,Disabled
+113,Equities_Incremental,SettlementStats,2019-04-09 13:40:00,2019-04-09 13:50:00,Disabled
+113,Equities_Incremental,Ledger,2019-04-09 13:50:00,2019-04-09 14:00:00,Failure
+114,Equities_PostClose,PriceBand Changes,2019-04-09 14:00:00,2019-04-09 14:10:00,Failure
+114,Equities_PostClose,Reconciliation,2019-04-09 14:10:00,2019-04-09 14:20:00,Complete
+114,Equities_PostClose,BhavCopy,2019-04-09 14:20:00,2019-04-09 14:30:00,Failure
+114,Equities_PostClose,BlockDeals,2019-04-09 14:30:00,2019-04-09 14:40:00,Complete
+114,Equities_PostClose,SettlementStats,2019-04-09 14:40:00,2019-04-09 14:50:00,Disabled
+114,Equities_PostClose,Ledger,2019-04-09 14:50:00,2019-04-09 15:00:00,Disabled
+115,Equities_Nightly,PriceBand Changes,2019-04-09 15:00:00,2019-04-09 15:10:00,Disabled
+115,Equities_Nightly,Reconciliation,2019-04-09 15:10:00,2019-04-09 15:20:00,Disabled
+115,Equities_Nightly,BhavCopy,2019-04-09 15:20:00,2019-04-09 15:30:00,Complete
+115,Equities_Nightly,BlockDeals,2019-04-09 15:30:00,2019-04-09 15:40:00,Complete
+115,Equities_Nightly,SettlementStats,2019-04-09 15:40:00,2019-04-09 15:50:00,Complete
+115,Equities_Nightly,Ledger,2019-04-09 15:50:00,2019-04-09 16:00:00,Failure
+116,Equities_Daily,PriceBand Changes,2019-04-09 16:00:00,2019-04-09 16:10:00,Disabled
+116,Equities_Daily,Reconciliation,2019-04-09 16:10:00,2019-04-09 16:20:00,Disabled
+116,Equities_Daily,BhavCopy,2019-04-09 16:20:00,2019-04-09 16:30:00,Complete
+116,Equities_Daily,BlockDeals,2019-04-09 16:30:00,2019-04-09 16:40:00,Disabled
+116,Equities_Daily,SettlementStats,2019-04-09 16:40:00,2019-04-09 16:50:00,Complete
+116,Equities_Daily,Ledger,2019-04-09 16:50:00,2019-04-09 17:00:00,Complete
+117,Equities_Monthly,PriceBand Changes,2019-04-09 17:00:00,2019-04-09 17:10:00,Failure
+117,Equities_Monthly,Reconciliation,2019-04-09 17:10:00,2019-04-09 17:20:00,Disabled
+117,Equities_Monthly,BhavCopy,2019-04-09 17:20:00,2019-04-09 17:30:00,Failure
+117,Equities_Monthly,BlockDeals,2019-04-09 17:30:00,2019-04-09 17:40:00,Complete
+117,Equities_Monthly,SettlementStats,2019-04-09 17:40:00,2019-04-09 17:50:00,Complete
+117,Equities_Monthly,Ledger,2019-04-09 17:50:00,2019-04-09 18:00:00,Disabled
+118,Equities_Incremental,PriceBand Changes,2019-04-09 18:00:00,2019-04-09 18:10:00,Disabled
+118,Equities_Incremental,Reconciliation,2019-04-09 18:10:00,2019-04-09 18:20:00,Failure
+118,Equities_Incremental,BhavCopy,2019-04-09 18:20:00,2019-04-09 18:30:00,Failure
+118,Equities_Incremental,BlockDeals,2019-04-09 18:30:00,2019-04-09 18:40:00,Disabled
+118,Equities_Incremental,SettlementStats,2019-04-09 18:40:00,2019-04-09 18:50:00,Failure
+118,Equities_Incremental,Ledger,2019-04-09 18:50:00,2019-04-09 19:00:00,Failure
+119,Equities_PostClose,PriceBand Changes,2019-04-09 19:00:00,2019-04-09 19:10:00,Complete
+119,Equities_PostClose,Reconciliation,2019-04-09 19:10:00,2019-04-09 19:20:00,Complete
+119,Equities_PostClose,BhavCopy,2019-04-09 19:20:00,2019-04-09 19:30:00,Complete
+119,Equities_PostClose,BlockDeals,2019-04-09 19:30:00,2019-04-09 19:40:00,Failure
+119,Equities_PostClose,SettlementStats,2019-04-09 19:40:00,2019-04-09 19:50:00,Failure
+119,Equities_PostClose,Ledger,2019-04-09 19:50:00,2019-04-09 20:00:00,Complete
+120,Equities_Nightly,PriceBand Changes,2019-04-09 20:00:00,2019-04-09 20:10:00,Complete
+120,Equities_Nightly,Reconciliation,2019-04-09 20:10:00,2019-04-09 20:20:00,Complete
+120,Equities_Nightly,BhavCopy,2019-04-09 20:20:00,2019-04-09 20:30:00,Failure
+120,Equities_Nightly,BlockDeals,2019-04-09 20:30:00,2019-04-09 20:40:00,Failure
+120,Equities_Nightly,SettlementStats,2019-04-09 20:40:00,2019-04-09 20:50:00,Failure
+120,Equities_Nightly,Ledger,2019-04-09 20:50:00,2019-04-09 21:00:00,Complete
+121,Equities_Daily,PriceBand Changes,2019-04-10 01:00:00,2019-04-10 01:10:00,Failure
+121,Equities_Daily,Reconciliation,2019-04-10 01:10:00,2019-04-10 01:20:00,Disabled
+121,Equities_Daily,BhavCopy,2019-04-10 01:20:00,2019-04-10 01:30:00,Disabled
+121,Equities_Daily,BlockDeals,2019-04-10 01:30:00,2019-04-10 01:40:00,Disabled
+121,Equities_Daily,SettlementStats,2019-04-10 01:40:00,2019-04-10 01:50:00,Complete
+121,Equities_Daily,Ledger,2019-04-10 01:50:00,2019-04-10 02:00:00,Failure
+122,Equities_Monthly,PriceBand Changes,2019-04-10 02:00:00,2019-04-10 02:10:00,Failure
+122,Equities_Monthly,Reconciliation,2019-04-10 02:10:00,2019-04-10 02:20:00,Disabled
+122,Equities_Monthly,BhavCopy,2019-04-10 02:20:00,2019-04-10 02:30:00,Disabled
+122,Equities_Monthly,BlockDeals,2019-04-10 02:30:00,2019-04-10 02:40:00,Disabled
+122,Equities_Monthly,SettlementStats,2019-04-10 02:40:00,2019-04-10 02:50:00,Failure
+122,Equities_Monthly,Ledger,2019-04-10 02:50:00,2019-04-10 03:00:00,Failure
+123,Equities_Incremental,PriceBand Changes,2019-04-10 03:00:00,2019-04-10 03:10:00,Complete
+123,Equities_Incremental,Reconciliation,2019-04-10 03:10:00,2019-04-10 03:20:00,Complete
+123,Equities_Incremental,BhavCopy,2019-04-10 03:20:00,2019-04-10 03:30:00,Complete
+123,Equities_Incremental,BlockDeals,2019-04-10 03:30:00,2019-04-10 03:40:00,Failure
+123,Equities_Incremental,SettlementStats,2019-04-10 03:40:00,2019-04-10 03:50:00,Failure
+123,Equities_Incremental,Ledger,2019-04-10 03:50:00,2019-04-10 04:00:00,Failure
+124,Equities_PostClose,PriceBand Changes,2019-04-10 04:00:00,2019-04-10 04:10:00,Complete
+124,Equities_PostClose,Reconciliation,2019-04-10 04:10:00,2019-04-10 04:20:00,Failure
+124,Equities_PostClose,BhavCopy,2019-04-10 04:20:00,2019-04-10 04:30:00,Failure
+124,Equities_PostClose,BlockDeals,2019-04-10 04:30:00,2019-04-10 04:40:00,Failure
+124,Equities_PostClose,SettlementStats,2019-04-10 04:40:00,2019-04-10 04:50:00,Complete
+124,Equities_PostClose,Ledger,2019-04-10 04:50:00,2019-04-10 05:00:00,Disabled
+125,Equities_Nightly,PriceBand Changes,2019-04-10 05:00:00,2019-04-10 05:10:00,Disabled
+125,Equities_Nightly,Reconciliation,2019-04-10 05:10:00,2019-04-10 05:20:00,Disabled
+125,Equities_Nightly,BhavCopy,2019-04-10 05:20:00,2019-04-10 05:30:00,Complete
+125,Equities_Nightly,BlockDeals,2019-04-10 05:30:00,2019-04-10 05:40:00,Complete
+125,Equities_Nightly,SettlementStats,2019-04-10 05:40:00,2019-04-10 05:50:00,Disabled
+125,Equities_Nightly,Ledger,2019-04-10 05:50:00,2019-04-10 06:00:00,Complete
+126,Equities_Daily,PriceBand Changes,2019-04-10 06:00:00,2019-04-10 06:10:00,Disabled
+126,Equities_Daily,Reconciliation,2019-04-10 06:10:00,2019-04-10 06:20:00,Complete
+126,Equities_Daily,BhavCopy,2019-04-10 06:20:00,2019-04-10 06:30:00,Complete
+126,Equities_Daily,BlockDeals,2019-04-10 06:30:00,2019-04-10 06:40:00,Disabled
+126,Equities_Daily,SettlementStats,2019-04-10 06:40:00,2019-04-10 06:50:00,Complete
+126,Equities_Daily,Ledger,2019-04-10 06:50:00,2019-04-10 07:00:00,Complete
+127,Equities_Monthly,PriceBand Changes,2019-04-10 07:00:00,2019-04-10 07:10:00,Complete
+127,Equities_Monthly,Reconciliation,2019-04-10 07:10:00,2019-04-10 07:20:00,Failure
+127,Equities_Monthly,BhavCopy,2019-04-10 07:20:00,2019-04-10 07:30:00,Complete
+127,Equities_Monthly,BlockDeals,2019-04-10 07:30:00,2019-04-10 07:40:00,Disabled
+127,Equities_Monthly,SettlementStats,2019-04-10 07:40:00,2019-04-10 07:50:00,Failure
+127,Equities_Monthly,Ledger,2019-04-10 07:50:00,2019-04-10 08:00:00,Failure
+128,Equities_Incremental,PriceBand Changes,2019-04-10 08:00:00,2019-04-10 08:10:00,Disabled
+128,Equities_Incremental,Reconciliation,2019-04-10 08:10:00,2019-04-10 08:20:00,Failure
+128,Equities_Incremental,BhavCopy,2019-04-10 08:20:00,2019-04-10 08:30:00,Complete
+128,Equities_Incremental,BlockDeals,2019-04-10 08:30:00,2019-04-10 08:40:00,Failure
+128,Equities_Incremental,SettlementStats,2019-04-10 08:40:00,2019-04-10 08:50:00,Complete
+128,Equities_Incremental,Ledger,2019-04-10 08:50:00,2019-04-10 09:00:00,Failure
+129,Equities_PostClose,PriceBand Changes,2019-04-10 09:00:00,2019-04-10 09:10:00,Failure
+129,Equities_PostClose,Reconciliation,2019-04-10 09:10:00,2019-04-10 09:20:00,Disabled
+129,Equities_PostClose,BhavCopy,2019-04-10 09:20:00,2019-04-10 09:30:00,Failure
+129,Equities_PostClose,BlockDeals,2019-04-10 09:30:00,2019-04-10 09:40:00,Complete
+129,Equities_PostClose,SettlementStats,2019-04-10 09:40:00,2019-04-10 09:50:00,Disabled
+129,Equities_PostClose,Ledger,2019-04-10 09:50:00,2019-04-10 10:00:00,Failure
+130,Equities_Nightly,PriceBand Changes,2019-04-10 10:00:00,2019-04-10 10:10:00,Complete
+130,Equities_Nightly,Reconciliation,2019-04-10 10:10:00,2019-04-10 10:20:00,Complete
+130,Equities_Nightly,BhavCopy,2019-04-10 10:20:00,2019-04-10 10:30:00,Failure
+130,Equities_Nightly,BlockDeals,2019-04-10 10:30:00,2019-04-10 10:40:00,Disabled
+130,Equities_Nightly,SettlementStats,2019-04-10 10:40:00,2019-04-10 10:50:00,Disabled
+130,Equities_Nightly,Ledger,2019-04-10 10:50:00,2019-04-10 11:00:00,Disabled
+131,Equities_Daily,PriceBand Changes,2019-04-10 11:00:00,2019-04-10 11:10:00,Complete
+131,Equities_Daily,Reconciliation,2019-04-10 11:10:00,2019-04-10 11:20:00,Complete
+131,Equities_Daily,BhavCopy,2019-04-10 11:20:00,2019-04-10 11:30:00,Failure
+131,Equities_Daily,BlockDeals,2019-04-10 11:30:00,2019-04-10 11:40:00,Failure
+131,Equities_Daily,SettlementStats,2019-04-10 11:40:00,2019-04-10 11:50:00,Failure
+131,Equities_Daily,Ledger,2019-04-10 11:50:00,2019-04-10 12:00:00,Complete
+132,Equities_Monthly,PriceBand Changes,2019-04-10 12:00:00,2019-04-10 12:10:00,Disabled
+132,Equities_Monthly,Reconciliation,2019-04-10 12:10:00,2019-04-10 12:20:00,Disabled
+132,Equities_Monthly,BhavCopy,2019-04-10 12:20:00,2019-04-10 12:30:00,Failure
+132,Equities_Monthly,BlockDeals,2019-04-10 12:30:00,2019-04-10 12:40:00,Disabled
+132,Equities_Monthly,SettlementStats,2019-04-10 12:40:00,2019-04-10 12:50:00,Complete
+132,Equities_Monthly,Ledger,2019-04-10 12:50:00,2019-04-10 13:00:00,Disabled
+133,Equities_Incremental,PriceBand Changes,2019-04-10 13:00:00,2019-04-10 13:10:00,Complete
+133,Equities_Incremental,Reconciliation,2019-04-10 13:10:00,2019-04-10 13:20:00,Complete
+133,Equities_Incremental,BhavCopy,2019-04-10 13:20:00,2019-04-10 13:30:00,Complete
+133,Equities_Incremental,BlockDeals,2019-04-10 13:30:00,2019-04-10 13:40:00,Complete
+133,Equities_Incremental,SettlementStats,2019-04-10 13:40:00,2019-04-10 13:50:00,Complete
+133,Equities_Incremental,Ledger,2019-04-10 13:50:00,2019-04-10 14:00:00,Disabled
+134,Equities_PostClose,PriceBand Changes,2019-04-10 14:00:00,2019-04-10 14:10:00,Disabled
+134,Equities_PostClose,Reconciliation,2019-04-10 14:10:00,2019-04-10 14:20:00,Complete
+134,Equities_PostClose,BhavCopy,2019-04-10 14:20:00,2019-04-10 14:30:00,Complete
+134,Equities_PostClose,BlockDeals,2019-04-10 14:30:00,2019-04-10 14:40:00,Complete
+134,Equities_PostClose,SettlementStats,2019-04-10 14:40:00,2019-04-10 14:50:00,Failure
+134,Equities_PostClose,Ledger,2019-04-10 14:50:00,2019-04-10 15:00:00,Disabled
+135,Equities_Nightly,PriceBand Changes,2019-04-10 15:00:00,2019-04-10 15:10:00,Disabled
+135,Equities_Nightly,Reconciliation,2019-04-10 15:10:00,2019-04-10 15:20:00,Complete
+135,Equities_Nightly,BhavCopy,2019-04-10 15:20:00,2019-04-10 15:30:00,Disabled
+135,Equities_Nightly,BlockDeals,2019-04-10 15:30:00,2019-04-10 15:40:00,Failure
+135,Equities_Nightly,SettlementStats,2019-04-10 15:40:00,2019-04-10 15:50:00,Failure
+135,Equities_Nightly,Ledger,2019-04-10 15:50:00,2019-04-10 16:00:00,Complete
+136,Equities_Daily,PriceBand Changes,2019-04-10 16:00:00,2019-04-10 16:10:00,Failure
+136,Equities_Daily,Reconciliation,2019-04-10 16:10:00,2019-04-10 16:20:00,Disabled
+136,Equities_Daily,BhavCopy,2019-04-10 16:20:00,2019-04-10 16:30:00,Failure
+136,Equities_Daily,BlockDeals,2019-04-10 16:30:00,2019-04-10 16:40:00,Disabled
+136,Equities_Daily,SettlementStats,2019-04-10 16:40:00,2019-04-10 16:50:00,Disabled
+136,Equities_Daily,Ledger,2019-04-10 16:50:00,2019-04-10 17:00:00,Disabled
+137,Equities_Monthly,PriceBand Changes,2019-04-10 17:00:00,2019-04-10 17:10:00,Failure
+137,Equities_Monthly,Reconciliation,2019-04-10 17:10:00,2019-04-10 17:20:00,Complete
+137,Equities_Monthly,BhavCopy,2019-04-10 17:20:00,2019-04-10 17:30:00,Failure
+137,Equities_Monthly,BlockDeals,2019-04-10 17:30:00,2019-04-10 17:40:00,Failure
+137,Equities_Monthly,SettlementStats,2019-04-10 17:40:00,2019-04-10 17:50:00,Failure
+137,Equities_Monthly,Ledger,2019-04-10 17:50:00,2019-04-10 18:00:00,Complete
+138,Equities_Incremental,PriceBand Changes,2019-04-10 18:00:00,2019-04-10 18:10:00,Complete
+138,Equities_Incremental,Reconciliation,2019-04-10 18:10:00,2019-04-10 18:20:00,Failure
+138,Equities_Incremental,BhavCopy,2019-04-10 18:20:00,2019-04-10 18:30:00,Failure
+138,Equities_Incremental,BlockDeals,2019-04-10 18:30:00,2019-04-10 18:40:00,Disabled
+138,Equities_Incremental,SettlementStats,2019-04-10 18:40:00,2019-04-10 18:50:00,Failure
+138,Equities_Incremental,Ledger,2019-04-10 18:50:00,2019-04-10 19:00:00,Failure
+139,Equities_PostClose,PriceBand Changes,2019-04-10 19:00:00,2019-04-10 19:10:00,Failure
+139,Equities_PostClose,Reconciliation,2019-04-10 19:10:00,2019-04-10 19:20:00,Disabled
+139,Equities_PostClose,BhavCopy,2019-04-10 19:20:00,2019-04-10 19:30:00,Disabled
+139,Equities_PostClose,BlockDeals,2019-04-10 19:30:00,2019-04-10 19:40:00,Complete
+139,Equities_PostClose,SettlementStats,2019-04-10 19:40:00,2019-04-10 19:50:00,Disabled
+139,Equities_PostClose,Ledger,2019-04-10 19:50:00,2019-04-10 20:00:00,Disabled

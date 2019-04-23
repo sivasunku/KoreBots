@@ -36,7 +36,7 @@ def getEmployee(empid):
 @app.route('/employeeDetails/maxSal',methods=['GET'])
 def getMaxSal():
     cur = mysql.connect().cursor()
-    query = "select * from employees \
+    query = "select *,158220 as salary  from employees \
               where emp_no = (select emp_no from salaries where salary = (select max(salary) from salaries));"
     cur.execute(query)
     r = [dict((cur.description[i][0], value)
@@ -47,12 +47,32 @@ def getMaxSal():
 @app.route('/employeeDetails/minSal',methods=['GET'])
 def getMinSal():
     cur = mysql.connect().cursor()
-    query = "select * from employees \
+    query = "select *,38623 as salary  from employees \
               where emp_no = (select emp_no from salaries where salary = (select min(salary) from salaries));"
     cur.execute(query)
     r = [dict((cur.description[i][0], value)
               for i, value in enumerate(row)) for row in cur.fetchall()]
     return jsonify({'myCollection' : r})
+#  Employees With Salary Range
+@app.route('/employeeDetails/salRange/<range1>',methods=['GET'])
+def getSalRange(range1):
+    cur = mysql.connect().cursor()
+    range2 = range1.split("-")
+
+    query = """
+      select  e.*,s.salary
+        from  employees as e,salaries as s
+       where  e.emp_no = s.emp_no  
+         and  date(now()) >= date(s.from_date)
+         and  date(now()) <= date(s.to_date)
+         and  s.salary >= """ + range2[0] + \
+   """   and  s.salary <= """ + range2[1] + \
+   """   LIMIT 100;"""
+    print(query)
+    cur.execute(query)
+    r = [dict((cur.description[i][0], value)
+              for i, value in enumerate(row)) for row in cur.fetchall()]
+    return jsonify(r)
 
 # department Counts
 @app.route('/employeeDetails/deptCount',methods=['GET'])
